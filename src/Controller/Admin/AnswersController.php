@@ -1,5 +1,5 @@
 <?php
-namespace App\Controller;
+namespace App\Controller\Admin;
 
 use App\Controller\AppController;
 
@@ -54,6 +54,7 @@ class AnswersController extends AppController
         $answer = $this->Answers->newEntity();
         if ($this->request->is('post')) {
             $answer = $this->Answers->patchEntity($answer, $this->request->data);
+            $answer->user_id = $this->Auth->user('id');
             if ($this->Answers->save($answer)) {
                 $this->Flash->success(__('The answer has been saved.'));
 
@@ -114,5 +115,23 @@ class AnswersController extends AppController
         }
 
         return $this->redirect(['action' => 'index']);
+    }
+    
+    public function isAuthorized($user)
+    {
+        // All registered users can add articles
+        if ($this->request->action === 'add') {
+            return true;
+        }
+    
+        // The owner of an article can edit and delete it
+        if (in_array($this->request->action, ['edit', 'delete'])) {
+            $answerId = (int)$this->request->params['pass'][0];
+            if ($this->Answers->isOwnedBy($answerId, $user['id'])) {
+                return true;
+            }
+        }
+    
+        return parent::isAuthorized($user);
     }
 }

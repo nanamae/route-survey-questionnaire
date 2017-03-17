@@ -96,7 +96,11 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="http://questionnaire-whc-nanamae.c9users.io/samples">Home</a></li>
+        <li class="active"><a href="http://questionnaire-whc-nanamae.c9users.io/researches/top">Home</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+            <div><a href="http://questionnaire-whc-nanamae.c9users.io/users/add" class="btn btn-primary navbar-btn" role="button">Sign Up</a> 
+            <a href="http://questionnaire-whc-nanamae.c9users.io/users/logout" class="btn btn-default navbar-btn" role="button">Sign Out</a></div>
       </ul>
     </div>
   </div>
@@ -145,7 +149,7 @@ $(function(){
 
     
 <div class="container">
-  <form method="post" action="../lesson1_result">
+  <form method="post" action="../addAnswer">
     <input type="hidden" name="path_id" value="<?= $path->id ?>">
     <!--<input type="hidden" name="research_num" value="<?= count($researches->toArray()) ?>">-->
     <!--<?php print_r($researches->toArray()); ?>-->
@@ -164,27 +168,27 @@ $(function(){
             <label>Q<?= $research->id ?>. <?= $research->question ?></label>
             <div class="radio">
                 <label>
-                    <input type="radio" name="<?= $research->id ?>" value="1"> 1
+                    <input type="radio" name="<?= $research->id ?>" value="1"> 1 . <?= __('全く同意できない') ?>
                 </label>
             </div>
             <div class="radio">
                 <label>
-                    <input type="radio" name="<?= $research->id ?>" value="2"> 2
+                    <input type="radio" name="<?= $research->id ?>" value="2"> 2 . <?= __('同意できない') ?>
                 </label>
             </div>
             <div class="radio">
                 <label>
-                    <input type="radio" name="<?= $research->id ?>" value="3"> 3
+                    <input type="radio" name="<?= $research->id ?>" value="3"> 3 . <?= __('どちらともいえない') ?>
                 </label>
             </div>
              <div class="radio">
                 <label>
-                    <input type="radio" name="<?= $research->id ?>" value="4"> 4
+                    <input type="radio" name="<?= $research->id ?>" value="4"> 4 . <?= __('同意できる') ?>
                 </label>
             </div>
              <div class="radio">
                 <label>
-                    <input type="radio" name="<?= $research->id ?>" value="5"> 5
+                    <input type="radio" name="<?= $research->id ?>" value="5"> 5 . <?= __('非常に同意できる') ?>
                 </label>
             </div>
         </div>

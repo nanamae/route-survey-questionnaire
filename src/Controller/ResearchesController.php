@@ -1,111 +1,115 @@
 <?php
+
 namespace App\Controller;
 
-use App\Controller\AppController;
+use Cake\Core\Configure;
+use Cake\Network\Exception\NotFoundException;
+use Cake\View\Exception\MissingTemplateException;
+use Cake\Event\Event;
 
-/**
- * Researches Controller
- *
- * @property \App\Model\Table\ResearchesTable $Researches
- */
+use Cake\ORM\TableRegistry;
+
+use Cake\Routing\Router;
+
+
 class ResearchesController extends AppController
 {
-
-    /**
-     * Index method
-     *
-     * @return \Cake\Network\Response|null
-     */
-    public function index()
-    {
-        $researches = $this->paginate($this->Researches);
-
-        $this->set(compact('researches'));
-        $this->set('_serialize', ['researches']);
+    
+    public function pathList(){
+        
+        $this->Paths = TableRegistry::get('Paths');
+        $path = $this->Paths->newEntity();
+        $this->set('paths', $this->Paths->find('all')); 
     }
-
-    /**
-     * View method
-     *
-     * @param string|null $id Research id.
-     * @return \Cake\Network\Response|null
-     * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
-     */
-    public function view($id = null)
-    {
-        $research = $this->Researches->get($id, [
-            'contain' => []
-        ]);
-
-        $this->set('research', $research);
-        $this->set('_serialize', ['research']);
+    
+    public function research($id = null){
+        
+        $this->Paths = TableRegistry::get('Paths');
+        $path = $this->Paths->get($id,['contain' => ['Images']]); //idを指定して経路取得
+        $this->set('path',$path);
+        
+        // $this->autoRender = false;
+        // $this->response->type('image');
+        // $this->response->body(stream_get_contents($path->thumbnail));
+        // $this->set('image', stream_get_contents($path->image));
+        
+        $this->Researches = TableRegistry::get('Researches');
+        $this->set('researches', $this->Researches->find('all'));
+       
     }
+  
+    public function addAnswer(){
+        
+        $this->Researches = TableRegistry::get('Researches');
+        $researches = $this->Researches->find('all');
 
-    /**
-     * Add method
-     *
-     * @return \Cake\Network\Response|void Redirects on successful add, renders view otherwise.
-     */
-    public function add()
-    {
-        $research = $this->Researches->newEntity();
-        if ($this->request->is('post')) {
-            $research = $this->Researches->patchEntity($research, $this->request->data);
-            if ($this->Researches->save($research)) {
-                $this->Flash->success(__('The research has been saved.'));
-
-                return $this->redirect(['action' => 'index']);
-            } else {
-                $this->Flash->error(__('The research could not be saved. Please, try again.'));
-            }
+        $userId = $this->Auth->user("id");
+        
+        // debug($userId);
+        // exit;
+        
+        
+        // print_r($_POST);
+        // exit;
+        $this->Answers = TableRegistry::get('Answers');
+        foreach($researches as $research){
+            $answer = $this->Answers->newEntity();
+            
+            $answer -> set([
+               'researches_id' => $research->id,
+               'paths_id' => $_POST['path_id'],
+               'value' => $_POST[$research->id],
+               'lat' => $_POST['lat'],
+               'lng' => $_POST['lng'],
+               'heading' => $_POST['heading'],
+               'pitch' => $_POST['pitch'],
+               'user_id' => $userId
+            ]);
+            
+            $this->Answers->save($answer);
         }
-        $this->set(compact('research'));
-        $this->set('_serialize', ['research']);
+        $this->CurrentResearches = TableRegistry::get('CurrentResearches');
+        $current = $this->CurrentResearches->find('all')->where(['user_id'=>$userId])->first();
+        $current->num = $current->num + 1;
+        $this->CurrentResearches->save($current);
+        
+        $this->redirect(['controller'=>'samples','action'=>'start']);
+
     }
-
-    /**
-     * Edit method
-     *
-     * @param string|null $id Research id.
-     * @return \Cake\Network\Response|void Redirects on successful edit, renders view otherwise.
-     * @throws \Cake\Network\Exception\NotFoundException When record not found.
-     */
-    public function edit($id = null)
-    {
-        $research = $this->Researches->get($id, [
-            'contain' => []
-        ]);
-        if ($this->request->is(['patch', 'post', 'put'])) {
-            $research = $this->Researches->patchEntity($research, $this->request->data);
-            if ($this->Researches->save($research)) {
-                $this->Flash->success(__('The research has been saved.'));
-
-                return $this->redirect(['action' => 'index']);
-            } else {
-                $this->Flash->error(__('The research could not be saved. Please, try again.'));
-            }
+    
+    
+    public function top(){
+         
+        
+    }
+    
+    public function start(){
+        $uid = $this->Auth->user('id');
+        $this->CurrentResearches = TableRegistry::get('CurrentResearches');
+        $current = $this->CurrentResearches->find('all')->where(['user_id'=>$uid])->first();
+        if($current == null){
+            $current = $this->CurrentResearches->newEntity();
+            $current->num = 0;
+            $current->user_id = $uid;
+            $numbers = range(1,93);
+            shuffle($numbers);
+            
+            $current->sequence = implode(',',$numbers);
+            $this->CurrentResearches->save($current);
         }
-        $this->set(compact('research'));
-        $this->set('_serialize', ['research']);
+        $seq_split = explode(",", $current->sequence);
+        
+        //条件判定
+        return $this->redirect(Router::url(['controller' => 'researches', 'action' => 'research', $seq_split[$current->num] ]));
     }
 
-    /**
-     * Delete method
-     *
-     * @param string|null $id Research id.
-     * @return \Cake\Network\Response|null Redirects to index.
-     * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
-     */
-    public function delete($id = null)
+    public function beforeFilter(Event $event)
     {
-        $this->request->allowMethod(['post', 'delete']);
-        $research = $this->Researches->get($id);
-        if ($this->Researches->delete($research)) {
-            $this->Flash->success(__('The research has been deleted.'));
-        } else {
-            $this->Flash->error(__('The research could not be deleted. Please, try again.'));
-        }
-
-        return $this->redirect(['action' => 'index']);
+        parent::beforeFilter($event);
+        // Allow users to register and logout.
+        // You should not add the "login" action to allow list. Doing so would
+        // cause problems with normal functioning of AuthComponent.
+        $this->Auth->allow(['top']);
     }
+    
 }

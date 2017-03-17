@@ -16,6 +16,7 @@ namespace App\Controller;
 
 use Cake\Controller\Controller;
 use Cake\Event\Event;
+use Cake\Routing\Router;
 
 /**
  * Application Controller
@@ -27,6 +28,13 @@ use Cake\Event\Event;
  */
 class AppController extends Controller
 {
+    
+    public function beforeFilter(Event $event)
+	{
+		parent::beforeFilter($event);
+        // 認証コンポーネントをViewで利用可能にしておく
+        $this->set('auth',$this->Auth->user());
+    }
 
     /**
      * Initialization hook method.
@@ -43,6 +51,29 @@ class AppController extends Controller
 
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
+        
+        $this->loadComponent('Auth', [
+            'authorize' => ['Controller'],
+            'loginRedirect' => [
+                'controller' => 'Researches',
+                'action' => 'top'
+            ],
+            'logoutRedirect' => [
+                'controller' => 'Researches',
+                'action' => 'top'
+            ]
+        ]);
+    }
+    
+    public function isAuthorized($user)
+    {
+        // Admin can access every action
+        if (isset($user['role']) && $user['role'] === 'admin') {
+            return true;
+        }
+    
+        // Default deny
+        return false;
     }
 
     /**
@@ -53,10 +84,30 @@ class AppController extends Controller
      */
     public function beforeRender(Event $event)
     {
+        
+        $this->storeRedirectPath();
+        
         if (!array_key_exists('_serialize', $this->viewVars) &&
             in_array($this->response->type(), ['application/json', 'application/xml'])
         ) {
             $this->set('_serialize', true);
         }
+        $this->Auth->allow(['index','view']);
+    }
+    
+    private function storeRedirectPath() {
+        // $current_path = Router::url();
+        
+        // if ( !in_array($current_path, [
+        //         '/users/add',     // ユーザー登録ページ
+        //         '/users/login',    // ログインページ
+        //         '/reserches/index',
+        //         '/reserches'
+        //     ])
+        // ) {
+        //     $this->request->session()->write('Auth.redirect', $current_path);
+        // }else{
+            $this->request->session()->write('Auth.redirect', '');
+        // }
     }
 }

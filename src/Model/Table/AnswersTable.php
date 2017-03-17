@@ -47,6 +47,10 @@ class AnswersTable extends Table
         $this->belongsTo('Paths', [
             'foreignKey' => 'paths_id'
         ]);
+        
+        $this->hasMany('Users', [
+            'foreignKey' => 'users_id'
+        ]);
     }
 
     /**
@@ -80,5 +84,10 @@ class AnswersTable extends Table
         $rules->add($rules->existsIn(['paths_id'], 'Paths'));
 
         return $rules;
+    }
+    
+    public function isOwnedBy($answerId, $userId)
+    {
+        return $this->exists(['id' => $answerId, 'user_id' => $userId]);
     }
 }
