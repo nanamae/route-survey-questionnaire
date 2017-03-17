@@ -69,6 +69,9 @@ use Cake\Utility\Security;
  * idea to create multiple configuration files, and separate the configuration
  * that changes from configuration that does not. This makes deployment simpler.
  */
+$dotenv = new Dotenv\Dotenv(__DIR__ . '/../');
+$dotenv->load();
+
 try {
     Configure::config('default', new PhpConfig());
     Configure::load('app', 'default', false);

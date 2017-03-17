@@ -1974,3 +1974,21 @@
 [28-Feb-2017 08:38:39 UTC] PHP  15. call_user_func_array:{/home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435}() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435
 [28-Feb-2017 08:38:39 UTC] PHP  16. App\Controller\SamplesController->lesson1Result() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435
 [28-Feb-2017 08:38:39 UTC] PHP  17. Cake\ORM\Table->save() /home/ubuntu/workspace/questionnaire-whc/src/Controller/SamplesController.php:81
+[17-Mar-2017 08:59:25 UTC] PHP Fatal error:  Uncaught exception 'Dotenv\Exception\InvalidPathException' with message 'Unable to read the environment file at __DTR__/../.env.' in /home/ubuntu/workspace/questionnaire-whc/vendor/vlucas/phpdotenv/src/Loader.php:75
+Stack trace:
+#0 /home/ubuntu/workspace/questionnaire-whc/vendor/vlucas/phpdotenv/src/Loader.php(52): Dotenv\Loader->ensureFileIsReadable()
+#1 /home/ubuntu/workspace/questionnaire-whc/vendor/vlucas/phpdotenv/src/Dotenv.php(91): Dotenv\Loader->load()
+#2 /home/ubuntu/workspace/questionnaire-whc/vendor/vlucas/phpdotenv/src/Dotenv.php(48): Dotenv\Dotenv->loadData()
+#3 /home/ubuntu/workspace/questionnaire-whc/config/bootstrap.php(73): Dotenv\Dotenv->load()
+#4 /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php(60): require_once('/home/ubuntu/wo...')
+#5 /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php(72): Cake\Http\BaseApplication->bootstrap()
+#6 /home/ubuntu/workspace/questionnaire-whc/webroot/index.php(37): Cake\Http\Server->r in /home/ubuntu/workspace/questionnaire-whc/vendor/vlucas/phpdotenv/src/Loader.php on line 75
+[17-Mar-2017 09:03:26 UTC] PHP Fatal error:  Call to undefined function nv() in /home/ubuntu/workspace/questionnaire-whc/config/app.php on line 225
+[17-Mar-2017 09:03:26 UTC] PHP Stack trace:
+[17-Mar-2017 09:03:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[17-Mar-2017 09:03:26 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[17-Mar-2017 09:03:26 UTC] PHP   3. Cake\Http\BaseApplication->bootstrap() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:72
+[17-Mar-2017 09:03:26 UTC] PHP   4. require_once() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:60
+[17-Mar-2017 09:03:26 UTC] PHP   5. Cake\Core\Configure::load() /home/ubuntu/workspace/questionnaire-whc/config/bootstrap.php:77
+[17-Mar-2017 09:03:26 UTC] PHP   6. Cake\Core\Configure\Engine\PhpConfig->read() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Core/Configure.php:301
+[17-Mar-2017 09:03:26 UTC] PHP   7. include() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Core/Configure/Engine/PhpConfig.php:71
