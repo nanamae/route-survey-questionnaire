@@ -13,11 +13,11 @@ class AddHeadingPitchToAnswers extends AbstractMigration
     public function change()
     {
         $table = $this->table('answers');
-        $table->addColumn('heading', 'decimal', [
+        $table->addColumn('heading', 'float', [
             'default' => null,
             'null' => false,
         ]);
-        $table->addColumn('pitch', 'decimal', [
+        $table->addColumn('pitch', 'float', [
             'default' => null,
             'null' => false,
         ]);

@@ -13,19 +13,19 @@ class AddLatLngHeadingPitchToPaths extends AbstractMigration
     public function change()
     {
         $table = $this->table('paths');
-        $table->addColumn('lat', 'decimal', [
+        $table->addColumn('lat', 'float', [
             'default' => null,
             'null' => false,
         ]);
-        $table->addColumn('lng', 'decimal', [
+        $table->addColumn('lng', 'float', [
             'default' => null,
             'null' => false,
         ]);
-        $table->addColumn('heading', 'decimal', [
+        $table->addColumn('heading', 'float', [
             'default' => null,
             'null' => false,
         ]);
-        $table->addColumn('pitch', 'decimal', [
+        $table->addColumn('pitch', 'float', [
             'default' => null,
             'null' => false,
         ]);
