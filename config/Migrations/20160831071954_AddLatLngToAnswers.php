@@ -13,13 +13,17 @@ class AddLatLngToAnswers extends AbstractMigration
     public function change()
     {
         $table = $this->table('answers');
-        $table->addColumn('lat', 'float', [
+        $table->addColumn('lat', 'decimal', [
             'default' => null,
             'null' => false,
+            'precision' => 15,
+            'scale' => 10
         ]);
-        $table->addColumn('lng', 'float', [
+        $table->addColumn('lng', 'decimal', [
             'default' => null,
             'null' => false,
+            'precision' => 15,
+            'scale' => 10
         ]);
         $table->update();
     }

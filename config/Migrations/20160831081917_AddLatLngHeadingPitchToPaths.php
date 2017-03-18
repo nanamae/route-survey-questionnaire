@@ -17,17 +17,23 @@ class AddLatLngHeadingPitchToPaths extends AbstractMigration
             'default' => null,
             'null' => false,
         ]);
-        $table->addColumn('lng', 'float', [
+        $table->addColumn('lng', 'decimal', [
             'default' => null,
             'null' => false,
+            'precision' => 15,
+            'scale' => 10
         ]);
-        $table->addColumn('heading', 'float', [
+        $table->addColumn('heading', 'decimal', [
             'default' => null,
             'null' => false,
+            'precision' => 15,
+            'scale' => 10
         ]);
-        $table->addColumn('pitch', 'float', [
+        $table->addColumn('pitch', 'decimal', [
             'default' => null,
             'null' => false,
+            'precision' => 15,
+            'scale' => 10
         ]);
         $table->update();
     }
