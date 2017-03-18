@@ -13,8 +13,8 @@
       </div>
           <ul class="nav navbar-nav navbar-right">
             <div>
-               <a href="http://questionnaire-whc-nanamae.c9users.io/users/add" class="btn btn-primary navbar-btn" role="button">Sign Up</a> 
-               <a href="http://questionnaire-whc-nanamae.c9users.io/users/login" class="btn btn-default navbar-btn" role="button">Sign In</a>
+               <a href="/users/add" class="btn btn-primary navbar-btn" role="button">Sign Up</a> 
+               <a href="/users/login" class="btn btn-default navbar-btn" role="button">Sign In</a>
             </div>
           </ul>
     </div>
