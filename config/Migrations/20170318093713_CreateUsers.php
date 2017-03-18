@@ -7,14 +7,6 @@ class CreateUsers extends AbstractMigration
     public function change()
     {
         $this->table('users')
-            ->addColumn('id', 'integer', [
-                'autoIncrement' => true,
-                'default' => null,
-                'limit' => 10,
-                'null' => false,
-                'signed' => false,
-            ])
-            ->addPrimaryKey(['id'])
             ->addColumn('username', 'string', [
                 'default' => null,
                 'limit' => 50,
