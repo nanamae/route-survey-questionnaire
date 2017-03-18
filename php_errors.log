@@ -1992,3 +1992,21 @@ Stack trace:
 [17-Mar-2017 09:03:26 UTC] PHP   5. Cake\Core\Configure::load() /home/ubuntu/workspace/questionnaire-whc/config/bootstrap.php:77
 [17-Mar-2017 09:03:26 UTC] PHP   6. Cake\Core\Configure\Engine\PhpConfig->read() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Core/Configure.php:301
 [17-Mar-2017 09:03:26 UTC] PHP   7. include() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Core/Configure/Engine/PhpConfig.php:71
+[18-Mar-2017 04:08:34 UTC] PHP Warning:  require(/home/ubuntu/workspace/route-survey-questionnaire/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/route-survey-questionnaire/webroot/index.php on line 27
+[18-Mar-2017 04:08:34 UTC] PHP Stack trace:
+[18-Mar-2017 04:08:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/route-survey-questionnaire/webroot/index.php:0
+[18-Mar-2017 04:08:34 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/route-survey-questionnaire/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/route-survey-questionnaire/webroot/index.php on line 27
+[18-Mar-2017 04:08:34 UTC] PHP Stack trace:
+[18-Mar-2017 04:08:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/route-survey-questionnaire/webroot/index.php:0
+[18-Mar-2017 04:12:15 UTC] PHP Warning:  require(/home/ubuntu/workspace/route-survey-questionnaire/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/route-survey-questionnaire/webroot/index.php on line 27
+[18-Mar-2017 04:12:15 UTC] PHP Stack trace:
+[18-Mar-2017 04:12:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/route-survey-questionnaire/webroot/index.php:0
+[18-Mar-2017 04:12:15 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/route-survey-questionnaire/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/route-survey-questionnaire/webroot/index.php on line 27
+[18-Mar-2017 04:12:15 UTC] PHP Stack trace:
+[18-Mar-2017 04:12:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/route-survey-questionnaire/webroot/index.php:0
+[18-Mar-2017 04:12:28 UTC] PHP Warning:  require(/home/ubuntu/workspace/route-survey-questionnaire/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/route-survey-questionnaire/webroot/index.php on line 27
+[18-Mar-2017 04:12:28 UTC] PHP Stack trace:
+[18-Mar-2017 04:12:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/route-survey-questionnaire/webroot/index.php:0
+[18-Mar-2017 04:12:28 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/route-survey-questionnaire/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/route-survey-questionnaire/webroot/index.php on line 27
+[18-Mar-2017 04:12:28 UTC] PHP Stack trace:
+[18-Mar-2017 04:12:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/route-survey-questionnaire/webroot/index.php:0
