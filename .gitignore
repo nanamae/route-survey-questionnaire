@@ -3,6 +3,7 @@
 /tmp/*
 /logs/*
 .env
+.env.elasticbeanstalk
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
