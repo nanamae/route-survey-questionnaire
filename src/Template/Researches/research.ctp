@@ -96,11 +96,11 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="http://questionnaire-whc-nanamae.c9users.io/researches/top">Home</a></li>
+        <li class="active"><a href="/researches/top">Home</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-            <div><a href="http://questionnaire-whc-nanamae.c9users.io/users/add" class="btn btn-primary navbar-btn" role="button">Sign Up</a> 
-            <a href="http://questionnaire-whc-nanamae.c9users.io/users/logout" class="btn btn-default navbar-btn" role="button">Sign Out</a></div>
+            <div><a href="/users/add" class="btn btn-primary navbar-btn" role="button">Sign Up</a> 
+            <a href="/users/logout" class="btn btn-default navbar-btn" role="button">Sign Out</a></div>
       </ul>
     </div>
   </div>
