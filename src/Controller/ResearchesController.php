@@ -73,7 +73,7 @@ class ResearchesController extends AppController
         $current->num = $current->num + 1;
         $this->CurrentResearches->save($current);
         
-        $this->redirect(['controller'=>'samples','action'=>'start']);
+        $this->redirect(['controller'=>'researches','action'=>'start']);
 
     }
     

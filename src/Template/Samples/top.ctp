@@ -19,9 +19,6 @@
       <a class="navbar-brand" href="#">WELCOME Questionnaire</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="http://questionnaire-whc-nanamae.c9users.io/samples">Home</a></li>
-      </ul>
     </div>
   </div>
 </nav>
@@ -49,6 +46,6 @@
 
 
 <?php 
-  echo $this->Html->link( __('はじめる'), ['controller' => 'Samples', 'action' => 'start', '_full' => true], ['class'=>'btn btn-primary'] );
+  echo $this->Html->link( __('はじめる'), ['controller' => 'Researches', 'action' => 'start', '_full' => true], ['class'=>'btn btn-primary'] );
 ?>
 </div>
