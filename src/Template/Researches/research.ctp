@@ -99,8 +99,7 @@
         <li class="active"><a href="/researches/top">Home</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-            <div><a href="/users/add" class="btn btn-primary navbar-btn" role="button">Sign Up</a> 
-            <a href="/users/logout" class="btn btn-default navbar-btn" role="button">Sign Out</a></div>
+            <div><a href="/users/logout" class="btn btn-default navbar-btn" role="button">Sign Out</a></div>
       </ul>
     </div>
   </div>
@@ -178,7 +177,7 @@ $(function(){
             </div>
             <div class="radio">
                 <label>
-                    <input type="radio" name="<?= $research->id ?>" value="3"> 3 . <?= __('どちらともいえない') ?>
+                    <input type="radio" name="<?= $research->id ?>" value="3" checked> 3 . <?= __('どちらともいえない') ?>
                 </label>
             </div>
              <div class="radio">

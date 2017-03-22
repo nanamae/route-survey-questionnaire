@@ -20,14 +20,14 @@
 <div class="users form large-9 medium-8 columns content">
     <?= $this->Form->create($user) ?>
     <fieldset>
-        <h4>Please enter your information</h4>
+        <h4>以下のユーザ登録に必要な情報を入力してください</h4>
         <?php
             echo $this->Form->input('username');
             echo $this->Form->input('email');
             echo $this->Form->input('password');
-            echo $this->Form->input('role', ['options' => ['admin' => 'Admin', 'user' => 'User']]);
+            // echo $this->Form->input('role', ['options' => ['admin' => 'Admin', 'user' => 'User']]);
         ?>
     </fieldset>
-    <button class="btn btn-prmary" type="submit">Submit</button>
+    <button class="btn btn-prmary" type="submit">登録する</button>
     <?= $this->Form->end() ?>
 </div>
