@@ -45,8 +45,8 @@
 </ol>
 <div>となっています。</div>
 
-
+<div  style="padding-bottom:20px; padding-top:20px">
 <?php 
-  echo $this->Html->link( __('はじめる'), ['controller' => 'Researches', 'action' => 'start', '_full' => true], ['class'=>'btn btn-primary'] );
-?>
+  echo $this->Html->link( __('はじめる'), ['controller' => 'Researches', 'action' => 'start', '_full' => true], ['class'=>'btn btn-lg btn-primary'] );
+?></div>
 </div>

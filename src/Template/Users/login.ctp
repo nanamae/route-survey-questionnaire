@@ -23,7 +23,7 @@
 
 <p class="explanation">初めての方はこちら</p>
 <div class="explanation"><a href="/users/add" class="btn-lg btn btn-primary navbar-btn" role="button">登録する</a></div>
-<div class="explanation">初めてでない方はそのままログインしてください</div>
+<div class="explanation">すでにユーザ登録をしている方はそのままログインしてください</div>
 <div class="users form content">
 <?= $this->Flash->render('auth') ?>
 <?= $this->Form->create() ?>

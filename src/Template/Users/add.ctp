@@ -1,3 +1,5 @@
+
+
 <!--<nav class="large-3 medium-4 columns" id="actions-sidebar">-->
 <!--    <ul class="side-nav">-->
 <!--        <li class="heading"><?= __('Actions') ?></li>-->
@@ -17,6 +19,7 @@
       </div>
     </div>
 </nav>
+
 <div class="users form large-9 medium-8 columns content">
     <?= $this->Form->create($user) ?>
     <fieldset>
@@ -27,6 +30,8 @@
             echo $this->Form->input('password');
             // echo $this->Form->input('role', ['options' => ['admin' => 'Admin', 'user' => 'User']]);
         ?>
+        <h6>※ アンケートの回答結果を分析する際にユーザ情報を分析材料として使用します</h6>
+        <h6>※ 次回アンケートの続きをする場合はログインを行ってから回答してください</h6>
     </fieldset>
     <button class="btn btn-prmary" type="submit">登録する</button>
     <?= $this->Form->end() ?>

@@ -31,7 +31,7 @@
 
  
 <div style="border-style: dotted ; border-width: 3px; padding: 10px 5px 10px 20px;border-radius: 10px;"><img src="/img/explainimage.png"></div>
-<div style="padding:10px;">経路ごとにこれらのような写真を見て以下のような質問に答えてください。<br>
+<div style="padding:10px;">経路ごとにこれらのような写真を見て以下のような質問に答えてください。
 </div>
 <div style="border-style: dotted ; border-width: 3px; padding: 10px 5px 10px 20px;border-radius: 10px;"><img src="/img/explainimage2.png"></div>
 <div style="padding:10px; padding-bottom:20px">評価については、</div>
@@ -46,6 +46,6 @@
 
 
 <?php 
-  echo $this->Html->link( __('はじめる'), ['controller' => 'Researches', 'action' => 'start', '_full' => true], ['class'=>'btn btn-primary'] );
+  echo $this->Html->link( __('はじめる'), ['controller' => 'Researches', 'action' => 'start', '_full' => true], ['class'=>'btn btn-lg btn-primary'] );
 ?>
 </div>
