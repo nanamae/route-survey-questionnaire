@@ -52,10 +52,11 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <!--        </ul>-->
     <!--    </div>-->
     <!--</nav>-->
-    <?= $this->Flash->render() ?>
+    
     
     <div class="container clearfix">
         <div style="margin-top:50px"></div>
+    <?= $this->Flash->render() ?>
         <?= $this->fetch('content') ?>
     </div>
     <footer>

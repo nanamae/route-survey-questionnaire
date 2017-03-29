@@ -27,7 +27,7 @@
     
 <h3 style="padding-top:40px;">このアンケートについて</h3>
 <div style="padding-top:20px;padding-bottom:20px">このアンケートはGoogleのストリートビューと写真を見て質問に答えるものです。<br>
-これは、崇城大学情報学部の和泉研究室と建築学科の古賀研究室が合同で行っている車いす使用者に現在地から目的地までの最も移動しやすい経路を提示する研究の一貫で、対象地は熊本県熊本市の中心街の一部としています。</div>
+これは、崇城大学情報学部の和泉研究室と建築学科の古賀研究室が合同で行っている車いす使用者に現在地から目的地までの最も移動しやすい経路を提示する研究の一貫で、対象地は熊本県熊本市の中心街の一部の93通りとしています。</div>
 
  
 <div style="border-style: dotted ; border-width: 3px; padding: 10px 5px 10px 20px;border-radius: 10px;"><img src="/img/explainimage.png"></div>
@@ -44,6 +44,7 @@
   <li><?= __('非常に同意できる') ?></li>
 </ol>
 <div>となっています。</div>
+<div>表示されている通りのアンケートに答えると次の通りのアンケートが表示されます。</div>
 
 <div  style="padding-bottom:20px; padding-top:20px">
 <?php 

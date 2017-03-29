@@ -160,6 +160,8 @@ $(function(){
     <input type="hidden" id="pitch" name='pitch' value="0">
 
     <!--<pre><?php debug($path) ?></pre>-->
+    <div class="caution" style="padding:10px; font-size: 14px;">問１〜３は自身の立場として回答し、問４〜１１は車いす使用者の立場を想定して回答してください。</div>
+    <div class="caution" style="padding:10px; padding-top:2px; padding-bottom:20px; font-size: 14px;">車いす使用者の方々は全て自身の立場として回答してください。</div>
 
     <?php foreach ($researches as $research): ?>
     
@@ -192,7 +194,7 @@ $(function(){
             </div>
         </div>
     <?php endforeach; ?>
-    <button class="btn btn-prmary" type="submit">送信する</button>
+    <button class="btn btn-primary" type="submit">送信する</button>
   </form>
 </div>
 

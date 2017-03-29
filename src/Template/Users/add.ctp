@@ -33,6 +33,6 @@
         <h6>※ アンケートの回答結果を分析する際にユーザ情報を分析材料として使用します</h6>
         <h6>※ 次回アンケートの続きをする場合はログインを行ってから回答してください</h6>
     </fieldset>
-    <button class="btn btn-prmary" type="submit">登録する</button>
+    <button class="btn btn-primary" type="submit">登録する</button>
     <?= $this->Form->end() ?>
 </div>
