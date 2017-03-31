@@ -48,8 +48,17 @@ div.top-explain{
 
 .progressbar {
   margin-bottom: 1em;
+  margin-top: 1em;
+  font-size: 14px;
+  display: flex;
+  font-weight: bolder;
+  line-height: 1em;
 }
 
 .progressbar progress {
-  vertical-align: sub;
+  flex: 1;
+  margin-left:1vw;
+  margin-right:1vw;
+  display:inline-block;
+  vertical-align:middle;
 }

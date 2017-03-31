@@ -2,85 +2,6 @@
 <script src="/js/masonry.pkgd.min.js"></script>
 <script src="/js/imagesloaded.pkgd.js"></script>
 
-<!--<script async defer-->
-<!--    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&signed_in=true&callback=initialize">-->
-<script async defer
-    src="https://maps.googleapis.com/maps/api/js?callback=initialize">
-</script>
-
-<script>
-    var map;
-    var panorama;
-    
-    
-    function position_changed_callback() {
-        document.getElementById('lat').setAttribute('value', panorama.getPosition().lat());
-        document.getElementById('lng').setAttribute('value', panorama.getPosition().lng());
-    }
-    
-    function pov_changed_callback() {
-        document.getElementById('heading').setAttribute('value', panorama.getPov().heading);
-        document.getElementById('pitch').setAttribute('value', panorama.getPov().pitch);
-        
-    }
-    
-    function click_callback() {
-    console.log('hello');
-  }
-  
-    
-    function initialize() {
-      var fenway = {
-          lat: parseFloat('<?= $path->lat ?>'), 
-          lng: parseFloat('<?= $path->lng ?>')
-          
-      };
-    
-    map = new google.maps.Map(document.getElementById('map'), {
-        center: fenway,
-        zoom: 16,
-        scaleControl: false,
-        zoomControl: false,
-        scrollWheel: false,
-        draggable: false,
-        disableDefaultUI: true,
-        disableDoubleClickZoom: true,
-        maxZoom: 16,
-        minZoom: 16
-      });
-      
-    var marker = new google.maps.Marker({
-        position: fenway,
-        map: map,
-        title: 'Your Here!!'
-    });
-      
-    panorama = new google.maps.StreetViewPanorama(
-        document.getElementById('pano'), {
-            position: fenway,
-            pov: {
-              heading: parseFloat('<?= $path->heading ?>'),
-              pitch: parseFloat('<?= $path->pitch ?>')
-            },
-        disableDefaultUI: true,
-        scrollwheel: false,
-        disableDoubleClickZoom: true,
-        clickToGo: false,
-        linksControl: false
-        }
-    );
-    
-    panorama.addListener('position_changed', position_changed_callback);
-    panorama.addListener('pov_changed', pov_changed_callback);
-    map.addListener('click',click_callback);
-    
-      map.setStreetView(panorama);
-    }
-    
-    
-</script>
-
-
 <?= $this->Html->css('research.css') ?>
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -105,68 +26,47 @@
   </div>
 </nav>
 
-    
-    
-<div class="container theme-showcase placement" style="padding: 0;">
-    <div class="container clearfix" role="main">
-        <div id="map" style="height:350px; width:50%; float: left;"></div>
-        <div id="pano"style="height:350px; width:50%; float: left;"></div><br>
-    </div>
-    <!--<div id="position">-->
-    <!--    Position-->
-    <!--</div>-->
-    <!--<div id="pov">-->
-    <!--    Pov-->
-    <!--</div>-->
-</div>
 
+<?php 
+    // map表示部分をファイル分割
+    // Template/Element/map.ctp を読み込み
+    // 引数として$pathを渡している
+    echo $this->element('partial/map', ['path'=>$path]); 
+?>
 
-<script type="text/javascript">
-$(function(){
-    var $grid = $('.grid').imagesLoaded( function() {
-      $grid.masonry({
-            itemSelector: '.grid-item',
-            percentPosition: true,
-            columnWidth: '.grid-sizer',
-      }); 
-    });
-});
-</script>
-
-<div class="container" style="margin-top:20px; margin-bottom:20px; padding-top:40px;">
-  <div class="grid">
-    <div class="grid-sizer"></div>
+<?php if(count($path->images) > 0): // 写真があるときだけ ?>
     
-    <?php foreach ($path->images as $idx => $image): ?>
-      <?php if($idx >= 3) break; ?>
-        <div class="grid-item">
-              <img src="<?= $this->Url->build(["controller" => "Images", "action" => "content", $image->id]); ?>" />
-        </div>
-    <?php endforeach; ?>
-  </div>
-</div>
+    <?php 
+        // 写真の表示部分をファイル分割
+        // Template/Element/photos.ctp を読み込み
+        // 引数として$pathを渡している
+        echo $this->element('partial/map', ['path'=>$path]); 
+    ?>
+
+<?php endif; ?>
 
     
 <div class="container">
+    <div class="alert alert-info" style="color:black; margin-top:10px; margin-bottom:10px; padding:10px; font-size: 14px;">
+        <div>問１〜３は自身の立場として、問４〜１１は車いすを使用した場合を想定して回答してください。</div>
+        <div>車いすを使用している方は自身の立場で回答してください。</div>
+    </div>
+
+    <?php 
+        // プログレスバー表示部分をファイル分割
+        // Template/Element/progress.ctp を読み込み
+        // 引数として$pathを渡している
+        echo $this->element('partial/progressbar', ['currentResearch'=>$currentResearch]); 
+    ?>
+
   <form method="post" action="../addAnswer">
     <input type="hidden" name="path_id" value="<?= $path->id ?>">
-    <!--<input type="hidden" name="research_num" value="<?= count($researches->toArray()) ?>">-->
-    <!--<?php print_r($researches->toArray()); ?>-->
     
-    
-    <input type="hidden" id="lat" name='lat' value="">
-    <input type="hidden" id="lng" name='lng' value="">
+    <input type="hidden" id="lat" name='lat' value="<?= $path->lat ?>">
+    <input type="hidden" id="lng" name='lng' value="<?= $path->lng ?>">
     <input type="hidden" id="heading" name='heading' value="0">
     <input type="hidden" id="pitch" name='pitch' value="0">
 
-    <!--<pre><?php debug($path) ?></pre>-->
-    <div class="caution" style="padding:10px; font-size: 14px;">問１〜３は自身の立場として回答し、問４〜１１は車いす使用者の立場を想定して回答してください。</div>
-    <div class="caution" style="padding:10px; padding-top:2px; padding-bottom:20px; font-size: 14px;">車いす使用者の方々は全て自身の立場として回答してください。</div>
-
-    <div class="progressbar">
-        回答状況：<progress value="<?= $currentResearch->num ?>" max="<?= count(explode(',', $currentResearch->sequence)) ?>"></progress> <?= $currentResearch->num ?> / <?= count(explode(",", $currentResearch->sequence)) ?>
-    </div>
-    
     <?php foreach ($researches as $research): ?>
     
         <div class="form-group">
@@ -199,8 +99,13 @@ $(function(){
         </div>
     <?php endforeach; ?>
     <button class="btn btn-primary" type="submit">送信する</button>
-    <div class="progressbar" style="margin-top:1em;">
-        回答状況：<progress value="<?= $currentResearch->num ?>" max="<?= count(explode(',', $currentResearch->sequence)) ?>"></progress> <?= $currentResearch->num ?> / <?= count(explode(",", $currentResearch->sequence)) ?>
+    <div style="margin-top:1em;">
+        <?php 
+            // プログレスバー表示部分をファイル分割
+            // Template/Element/progress.ctp を読み込み
+            // 引数として$pathを渡している
+            echo $this->element('partial/progressbar', ['currentResearch'=>$currentResearch]); 
+        ?>
     </div>
   </form>
 </div>
