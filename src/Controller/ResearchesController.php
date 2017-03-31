@@ -35,6 +35,11 @@ class ResearchesController extends AppController
         
         $this->Researches = TableRegistry::get('Researches');
         $this->set('researches', $this->Researches->find('all'));
+        
+        $this->CurrentResearches = TableRegistry::get('CurrentResearches');
+        $userId = $this->Auth->user("id");
+        $current = $this->CurrentResearches->find('all')->where(['user_id'=>$userId])->first();
+        $this->set('currentResearch', $current);
        
     }
   

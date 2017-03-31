@@ -3,6 +3,7 @@ namespace App\Controller;
 
 use App\Controller\AppController;
 use Cake\Event\Event;
+use Cake\I18n\I18n;
 
 /**
  * Users Controller
@@ -11,6 +12,7 @@ use Cake\Event\Event;
  */
 class UsersController extends AppController
 {
+
 
     /**
      * Index method
@@ -61,11 +63,11 @@ class UsersController extends AppController
             $user = $this->Users->patchEntity($user, $this->request->data);
             $user->role = "user";
             if ($this->Users->save($user)) {
-                $this->Flash->success(__('登録完了'));
+                $this->Flash->success(__('Registered'));
 
                 return $this->redirect(['action' => 'login']);
             } else {
-                $this->Flash->error(__('登録できませんでした。もう一度やり直してください。'));
+                $this->Flash->error(__('Could not registered'));
             }
         }
         $this->set(compact('user'));
@@ -130,6 +132,7 @@ class UsersController extends AppController
 
     public function login()
     {
+        
         if ($this->request->is('post')) {
             $user = $this->Auth->identify();
             if ($user) {

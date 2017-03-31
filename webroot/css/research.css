@@ -43,4 +43,13 @@ body { font-family: sans-serif; }
 
 div.top-explain{
   padding-bottom: 10px;
+  font-size: 14px;
+}
+
+.progressbar {
+  margin-bottom: 1em;
+}
+
+.progressbar progress {
+  vertical-align: sub;
 }

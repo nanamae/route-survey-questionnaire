@@ -133,7 +133,7 @@ $(function(){
 });
 </script>
 
-<div class="container" style="margin-top:20px; margin-bottom:20px">
+<div class="container" style="margin-top:20px; margin-bottom:20px; padding-top:40px;">
   <div class="grid">
     <div class="grid-sizer"></div>
     
@@ -163,6 +163,10 @@ $(function(){
     <div class="caution" style="padding:10px; font-size: 14px;">問１〜３は自身の立場として回答し、問４〜１１は車いす使用者の立場を想定して回答してください。</div>
     <div class="caution" style="padding:10px; padding-top:2px; padding-bottom:20px; font-size: 14px;">車いす使用者の方々は全て自身の立場として回答してください。</div>
 
+    <div class="progressbar">
+        回答状況：<progress value="<?= $currentResearch->num ?>" max="<?= count(explode(',', $currentResearch->sequence)) ?>"></progress> <?= $currentResearch->num ?> / <?= count(explode(",", $currentResearch->sequence)) ?>
+    </div>
+    
     <?php foreach ($researches as $research): ?>
     
         <div class="form-group">
@@ -195,6 +199,9 @@ $(function(){
         </div>
     <?php endforeach; ?>
     <button class="btn btn-primary" type="submit">送信する</button>
+    <div class="progressbar" style="margin-top:1em;">
+        回答状況：<progress value="<?= $currentResearch->num ?>" max="<?= count(explode(',', $currentResearch->sequence)) ?>"></progress> <?= $currentResearch->num ?> / <?= count(explode(",", $currentResearch->sequence)) ?>
+    </div>
   </form>
 </div>
 

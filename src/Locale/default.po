@@ -1,0 +1,611 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2017-03-30 14:00+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/UsersController.php:64
+msgid "Registered"
+msgstr "登録完了"
+
+#: Controller/UsersController.php:68
+msgid "Could not registered"
+msgstr "登録できませんでした。もう一度やり直してください。"
+
+#: Controller/UsersController.php:91
+#: Controller/Admin/UsersController.php:55;81
+msgid "The user has been saved."
+msgstr ""
+
+#: Controller/UsersController.php:95
+#: Controller/Admin/UsersController.php:59;85
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:114
+#: Controller/Admin/UsersController.php:104
+msgid "The user has been deleted."
+msgstr ""
+
+#: Controller/UsersController.php:116
+#: Controller/Admin/UsersController.php:106
+msgid "The user could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:140
+msgid "Invalid username or password, try again"
+msgstr ""
+
+#: Controller/Admin/AnswersController.php:59;87
+msgid "The answer has been saved."
+msgstr ""
+
+#: Controller/Admin/AnswersController.php:63;91
+msgid "The answer could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/AnswersController.php:112
+msgid "The answer has been deleted."
+msgstr ""
+
+#: Controller/Admin/AnswersController.php:114
+msgid "The answer could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/ImagesController.php:58;85
+#: Controller/Admin/PathsController.php:67;118
+msgid "The image has been saved."
+msgstr ""
+
+#: Controller/Admin/ImagesController.php:62;89
+#: Controller/Admin/PathsController.php:70;120
+msgid "The image could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/ImagesController.php:111
+msgid "The image has been deleted."
+msgstr ""
+
+#: Controller/Admin/ImagesController.php:113
+msgid "The image could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/PathsController.php:60;102
+msgid "The path has been saved."
+msgstr ""
+
+#: Controller/Admin/PathsController.php:75;131
+msgid "The path could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/PathsController.php:153
+msgid "The path has been deleted."
+msgstr ""
+
+#: Controller/Admin/PathsController.php:155
+msgid "The path could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/ResearchesController.php:55;81
+msgid "The research has been saved."
+msgstr ""
+
+#: Controller/Admin/ResearchesController.php:59;85
+msgid "The research could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/ResearchesController.php:104
+msgid "The research has been deleted."
+msgstr ""
+
+#: Controller/Admin/ResearchesController.php:106
+msgid "The research could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/TargetsController.php:55;81
+msgid "The target has been saved."
+msgstr ""
+
+#: Controller/Admin/TargetsController.php:59;85
+msgid "The target could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/TargetsController.php:104
+msgid "The target has been deleted."
+msgstr ""
+
+#: Controller/Admin/TargetsController.php:106
+msgid "The target could not be deleted. Please, try again."
+msgstr ""
+
+#: Template/Admin/Answers/add.ctp:3
+#: Template/Admin/Answers/edit.ctp:3
+#: Template/Admin/Answers/index.ctp:3;20
+#: Template/Admin/Answers/view.ctp:3
+#: Template/Admin/Images/add.ctp:3
+#: Template/Admin/Images/edit.ctp:3
+#: Template/Admin/Images/index.ctp:3;23
+#: Template/Admin/Images/view.ctp:3
+#: Template/Admin/Paths/add.ctp:3
+#: Template/Admin/Paths/edit.ctp:3
+#: Template/Admin/Paths/index.ctp:3;20
+#: Template/Admin/Paths/view.ctp:3
+#: Template/Admin/Researches/add.ctp:3
+#: Template/Admin/Researches/edit.ctp:3
+#: Template/Admin/Researches/index.ctp:3;16
+#: Template/Admin/Researches/view.ctp:3
+#: Template/Admin/Targets/add.ctp:3
+#: Template/Admin/Targets/edit.ctp:3
+#: Template/Admin/Targets/index.ctp:3;17
+#: Template/Admin/Targets/view.ctp:3;50
+#: Template/Admin/Users/add.ctp:3
+#: Template/Admin/Users/edit.ctp:3
+#: Template/Admin/Users/index.ctp:3;19
+#: Template/Admin/Users/view.ctp:3
+#: Template/Users/add.ctp:5
+#: Template/Users/edit.ctp:3
+#: Template/Users/index.ctp:3;18
+#: Template/Users/view.ctp:3
+msgid "Actions"
+msgstr ""
+
+#: Template/Admin/Answers/add.ctp:4
+#: Template/Admin/Answers/edit.ctp:10
+#: Template/Admin/Answers/view.ctp:6
+msgid "List Answers"
+msgstr ""
+
+#: Template/Admin/Answers/add.ctp:5
+#: Template/Admin/Answers/edit.ctp:11
+#: Template/Admin/Answers/index.ctp:5
+#: Template/Admin/Answers/view.ctp:8
+#: Template/Admin/Images/add.ctp:5
+#: Template/Admin/Images/edit.ctp:11
+#: Template/Admin/Images/index.ctp:5
+#: Template/Admin/Images/view.ctp:8
+#: Template/Admin/Paths/add.ctp:4
+#: Template/Admin/Paths/edit.ctp:10
+#: Template/Admin/Paths/view.ctp:6
+#: Template/Admin/Targets/add.ctp:5
+#: Template/Admin/Targets/edit.ctp:11
+#: Template/Admin/Targets/index.ctp:5
+#: Template/Admin/Targets/view.ctp:8
+msgid "List Paths"
+msgstr ""
+
+#: Template/Admin/Answers/add.ctp:6
+#: Template/Admin/Answers/edit.ctp:12
+#: Template/Admin/Answers/index.ctp:6
+#: Template/Admin/Answers/view.ctp:9
+#: Template/Admin/Images/add.ctp:6
+#: Template/Admin/Images/edit.ctp:12
+#: Template/Admin/Images/index.ctp:6
+#: Template/Admin/Images/view.ctp:9
+#: Template/Admin/Paths/index.ctp:4
+#: Template/Admin/Paths/view.ctp:7
+#: Template/Admin/Targets/add.ctp:6
+#: Template/Admin/Targets/edit.ctp:12
+#: Template/Admin/Targets/index.ctp:6
+#: Template/Admin/Targets/view.ctp:9
+msgid "New Path"
+msgstr ""
+
+#: Template/Admin/Answers/add.ctp:12
+msgid "Add Answer"
+msgstr ""
+
+#: Template/Admin/Answers/add.ctp:19
+#: Template/Admin/Answers/edit.ctp:25
+#: Template/Admin/Images/add.ctp:17
+#: Template/Admin/Images/edit.ctp:23
+#: Template/Admin/Paths/add.ctp:20
+#: Template/Admin/Paths/edit.ctp:30
+#: Template/Admin/Researches/add.ctp:15
+#: Template/Admin/Researches/edit.ctp:21
+#: Template/Admin/Targets/add.ctp:18
+#: Template/Admin/Targets/edit.ctp:24
+#: Template/Admin/Users/add.ctp:18
+#: Template/Admin/Users/edit.ctp:24
+#: Template/Users/edit.ctp:23
+msgid "Submit"
+msgstr ""
+
+#: Template/Admin/Answers/edit.ctp:5
+#: Template/Admin/Answers/index.ctp:35
+#: Template/Admin/Images/edit.ctp:5
+#: Template/Admin/Images/index.ctp:36
+#: Template/Admin/Paths/edit.ctp:5;36
+#: Template/Admin/Paths/index.ctp:37
+#: Template/Admin/Researches/edit.ctp:5
+#: Template/Admin/Researches/index.ctp:29
+#: Template/Admin/Targets/edit.ctp:5
+#: Template/Admin/Targets/index.ctp:29
+#: Template/Admin/Targets/view.ctp:66
+#: Template/Admin/Users/edit.ctp:5
+#: Template/Admin/Users/index.ctp:35
+#: Template/Users/edit.ctp:5
+#: Template/Users/index.ctp:33
+msgid "Delete"
+msgstr ""
+
+#: Template/Admin/Answers/edit.ctp:7
+#: Template/Admin/Answers/index.ctp:35
+#: Template/Admin/Answers/view.ctp:5
+#: Template/Admin/Images/edit.ctp:7
+#: Template/Admin/Images/index.ctp:36
+#: Template/Admin/Images/view.ctp:5
+#: Template/Admin/Paths/edit.ctp:7;39
+#: Template/Admin/Paths/index.ctp:37
+#: Template/Admin/Paths/view.ctp:5
+#: Template/Admin/Researches/edit.ctp:7
+#: Template/Admin/Researches/index.ctp:29
+#: Template/Admin/Researches/view.ctp:5
+#: Template/Admin/Targets/edit.ctp:7
+#: Template/Admin/Targets/index.ctp:29
+#: Template/Admin/Targets/view.ctp:5;66
+#: Template/Admin/Users/edit.ctp:7
+#: Template/Admin/Users/index.ctp:35
+#: Template/Admin/Users/view.ctp:5
+#: Template/Users/edit.ctp:7
+#: Template/Users/index.ctp:33
+#: Template/Users/view.ctp:5
+msgid "Are you sure you want to delete # {0}?"
+msgstr ""
+
+#: Template/Admin/Answers/edit.ctp:18
+#: Template/Admin/Answers/view.ctp:4
+msgid "Edit Answer"
+msgstr ""
+
+#: Template/Admin/Answers/index.ctp:4
+#: Template/Admin/Answers/view.ctp:7
+msgid "New Answer"
+msgstr ""
+
+#: Template/Admin/Answers/index.ctp:10
+msgid "Answers"
+msgstr ""
+
+#: Template/Admin/Answers/index.ctp:33
+#: Template/Admin/Images/index.ctp:34
+#: Template/Admin/Paths/index.ctp:35
+#: Template/Admin/Researches/index.ctp:27
+#: Template/Admin/Targets/index.ctp:27
+#: Template/Admin/Targets/view.ctp:64
+#: Template/Admin/Users/index.ctp:33
+#: Template/Users/index.ctp:31
+msgid "View"
+msgstr ""
+
+#: Template/Admin/Answers/index.ctp:34
+#: Template/Admin/Images/index.ctp:35
+#: Template/Admin/Paths/index.ctp:36
+#: Template/Admin/Researches/index.ctp:28
+#: Template/Admin/Targets/index.ctp:28
+#: Template/Admin/Targets/view.ctp:65
+#: Template/Admin/Users/index.ctp:34
+#: Template/Users/index.ctp:32
+msgid "Edit"
+msgstr ""
+
+#: Template/Admin/Answers/index.ctp:43
+#: Template/Admin/Images/index.ctp:44
+#: Template/Admin/Paths/index.ctp:45
+#: Template/Admin/Researches/index.ctp:37
+#: Template/Admin/Targets/index.ctp:37
+#: Template/Admin/Users/index.ctp:43
+#: Template/Users/index.ctp:41
+msgid "previous"
+msgstr ""
+
+#: Template/Admin/Answers/index.ctp:45
+#: Template/Admin/Images/index.ctp:46
+#: Template/Admin/Paths/index.ctp:47
+#: Template/Admin/Researches/index.ctp:39
+#: Template/Admin/Targets/index.ctp:39
+#: Template/Admin/Users/index.ctp:45
+#: Template/Users/index.ctp:43
+msgid "next"
+msgstr ""
+
+#: Template/Admin/Answers/view.ctp:5
+msgid "Delete Answer"
+msgstr ""
+
+#: Template/Admin/Answers/view.ctp:16
+msgid "Value"
+msgstr ""
+
+#: Template/Admin/Answers/view.ctp:20
+#: Template/Admin/Images/view.ctp:20
+#: Template/Admin/Paths/view.ctp:18
+#: Template/Admin/Researches/view.ctp:14
+#: Template/Admin/Targets/view.ctp:16;41
+#: Template/Admin/Users/view.ctp:30
+#: Template/Users/view.ctp:26
+msgid "Id"
+msgstr ""
+
+#: Template/Admin/Answers/view.ctp:24
+msgid "Researches Id"
+msgstr ""
+
+#: Template/Admin/Answers/view.ctp:28
+msgid "Paths Id"
+msgstr ""
+
+#: Template/Admin/Answers/view.ctp:32
+#: Template/Admin/Images/view.ctp:24
+#: Template/Admin/Paths/view.ctp:38
+#: Template/Admin/Researches/view.ctp:18
+#: Template/Admin/Targets/view.ctp:20;43
+#: Template/Admin/Users/view.ctp:34
+#: Template/Users/view.ctp:30
+msgid "Created"
+msgstr ""
+
+#: Template/Admin/Answers/view.ctp:36
+#: Template/Admin/Images/view.ctp:28
+#: Template/Admin/Paths/view.ctp:42
+#: Template/Admin/Researches/view.ctp:22
+#: Template/Admin/Targets/view.ctp:24;44
+#: Template/Admin/Users/view.ctp:38
+#: Template/Users/view.ctp:34
+msgid "Modified"
+msgstr ""
+
+#: Template/Admin/Images/add.ctp:4
+#: Template/Admin/Images/edit.ctp:10
+#: Template/Admin/Images/view.ctp:6
+msgid "List Images"
+msgstr ""
+
+#: Template/Admin/Images/add.ctp:12
+msgid "Add Image"
+msgstr ""
+
+#: Template/Admin/Images/edit.ctp:18
+#: Template/Admin/Images/view.ctp:4
+msgid "Edit Image"
+msgstr ""
+
+#: Template/Admin/Images/index.ctp:4
+#: Template/Admin/Images/view.ctp:7
+msgid "New Image"
+msgstr ""
+
+#: Template/Admin/Images/index.ctp:15
+msgid "Images"
+msgstr ""
+
+#: Template/Admin/Images/view.ctp:5
+msgid "Delete Image"
+msgstr ""
+
+#: Template/Admin/Images/view.ctp:16
+msgid "Path"
+msgstr ""
+
+#: Template/Admin/Paths/add.ctp:10
+msgid "Add Path"
+msgstr ""
+
+#: Template/Admin/Paths/edit.ctp:16
+#: Template/Admin/Paths/view.ctp:4
+msgid "Edit Path"
+msgstr ""
+
+#: Template/Admin/Paths/index.ctp:8
+msgid "Paths"
+msgstr ""
+
+#: Template/Admin/Paths/view.ctp:5
+msgid "Delete Path"
+msgstr ""
+
+#: Template/Admin/Paths/view.ctp:14
+#: Template/Admin/Targets/view.ctp:29;42
+msgid "Name"
+msgstr ""
+
+#: Template/Admin/Paths/view.ctp:22
+#: Template/Admin/Targets/view.ctp:45
+msgid "Lat"
+msgstr ""
+
+#: Template/Admin/Paths/view.ctp:26
+#: Template/Admin/Targets/view.ctp:46
+msgid "Lng"
+msgstr ""
+
+#: Template/Admin/Paths/view.ctp:30
+#: Template/Admin/Targets/view.ctp:47
+msgid "Heading"
+msgstr ""
+
+#: Template/Admin/Paths/view.ctp:34
+#: Template/Admin/Targets/view.ctp:48
+msgid "Pitch"
+msgstr ""
+
+#: Template/Admin/Researches/add.ctp:4
+#: Template/Admin/Researches/edit.ctp:10
+#: Template/Admin/Researches/view.ctp:6
+msgid "List Researches"
+msgstr ""
+
+#: Template/Admin/Researches/add.ctp:10
+msgid "Add Research"
+msgstr ""
+
+#: Template/Admin/Researches/edit.ctp:16
+#: Template/Admin/Researches/view.ctp:4
+msgid "Edit Research"
+msgstr ""
+
+#: Template/Admin/Researches/index.ctp:4
+#: Template/Admin/Researches/view.ctp:7
+msgid "New Research"
+msgstr ""
+
+#: Template/Admin/Researches/index.ctp:8
+msgid "Researches"
+msgstr ""
+
+#: Template/Admin/Researches/view.ctp:5
+msgid "Delete Research"
+msgstr ""
+
+#: Template/Admin/Researches/view.ctp:27
+msgid "Question"
+msgstr ""
+
+#: Template/Admin/Targets/add.ctp:4
+#: Template/Admin/Targets/edit.ctp:10
+#: Template/Admin/Targets/view.ctp:6
+msgid "List Targets"
+msgstr ""
+
+#: Template/Admin/Targets/add.ctp:12
+msgid "Add Target"
+msgstr ""
+
+#: Template/Admin/Targets/edit.ctp:18
+#: Template/Admin/Targets/view.ctp:4
+msgid "Edit Target"
+msgstr ""
+
+#: Template/Admin/Targets/index.ctp:4
+#: Template/Admin/Targets/view.ctp:7
+msgid "New Target"
+msgstr ""
+
+#: Template/Admin/Targets/index.ctp:10
+msgid "Targets"
+msgstr ""
+
+#: Template/Admin/Targets/view.ctp:5
+msgid "Delete Target"
+msgstr ""
+
+#: Template/Admin/Targets/view.ctp:33
+msgid "Url"
+msgstr ""
+
+#: Template/Admin/Targets/view.ctp:37
+msgid "Related Paths"
+msgstr ""
+
+#: Template/Admin/Targets/view.ctp:49
+msgid "Target Id"
+msgstr ""
+
+#: Template/Admin/Users/add.ctp:4
+#: Template/Admin/Users/edit.ctp:10
+#: Template/Admin/Users/view.ctp:6
+#: Template/Users/add.ctp:6
+#: Template/Users/edit.ctp:10
+#: Template/Users/view.ctp:6
+msgid "List Users"
+msgstr ""
+
+#: Template/Admin/Users/add.ctp:10
+msgid "Add User"
+msgstr ""
+
+#: Template/Admin/Users/edit.ctp:16
+#: Template/Admin/Users/view.ctp:4
+#: Template/Users/edit.ctp:16
+#: Template/Users/view.ctp:4
+msgid "Edit User"
+msgstr ""
+
+#: Template/Admin/Users/index.ctp:4
+#: Template/Admin/Users/view.ctp:7
+#: Template/Users/index.ctp:4
+#: Template/Users/view.ctp:7
+msgid "New User"
+msgstr ""
+
+#: Template/Admin/Users/index.ctp:8
+#: Template/Users/index.ctp:8
+msgid "Users"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:5
+#: Template/Users/view.ctp:5
+msgid "Delete User"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:14
+#: Template/Users/view.ctp:14
+msgid "Username"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:18
+#: Template/Users/view.ctp:18
+msgid "Password"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:22
+#: Template/Users/view.ctp:22
+msgid "Role"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:26
+msgid "Email"
+msgstr ""
+
+#: Template/Layout/error.ctp:35
+msgid "Error"
+msgstr ""
+
+#: Template/Layout/error.ctp:43
+msgid "Back"
+msgstr ""
+
+#: Template/Researches/research.ctp:176
+#: Template/Researches/top.ctp:40
+#: Template/Samples/top.ctp:39
+msgid "全く同意できない"
+msgstr ""
+
+#: Template/Researches/research.ctp:181
+#: Template/Researches/top.ctp:41
+#: Template/Samples/top.ctp:40
+msgid "同意できない"
+msgstr ""
+
+#: Template/Researches/research.ctp:186
+#: Template/Researches/top.ctp:42
+#: Template/Samples/top.ctp:41
+msgid "どちらともいえない"
+msgstr ""
+
+#: Template/Researches/research.ctp:191
+#: Template/Researches/top.ctp:43
+#: Template/Samples/top.ctp:42
+msgid "同意できる"
+msgstr ""
+
+#: Template/Researches/research.ctp:196
+#: Template/Researches/top.ctp:44
+#: Template/Samples/top.ctp:43
+msgid "非常に同意できる"
+msgstr ""
+
+#: Template/Researches/top.ctp:51
+#: Template/Samples/top.ctp:49
+msgid "はじめる"
+msgstr ""
+
