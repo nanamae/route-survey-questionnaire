@@ -19,7 +19,7 @@ class AnswersController extends AppController
     public function index()
     {
         $this->paginate = [
-            'contain' => ['Research', 'Paths']
+            'contain' => ['Researches', 'Paths']
         ];
         $answers = $this->paginate($this->Answers);
 
