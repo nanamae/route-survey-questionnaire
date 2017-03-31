@@ -103,7 +103,6 @@ class ImagesController extends AppController
      */
     public function delete($id = null)
     {
-           
         
         $this->request->allowMethod(['post', 'delete']);
         $image = $this->Images->get($id);
