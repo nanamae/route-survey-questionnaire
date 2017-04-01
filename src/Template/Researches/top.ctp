@@ -30,7 +30,7 @@
 これは、崇城大学情報学部の和泉研究室と建築学科の古賀研究室が合同で行っている車いす使用者に現在地から目的地までの最も移動しやすい経路を提示する研究の一貫で、対象地は熊本県熊本市の中心街の一部の93通りとしています。</div>
 
  
-<div style="border-style: dotted ; border-width: 3px; padding: 10px 5px 10px 20px;border-radius: 10px;"><img src="/img/explainimage.png"></div>
+<div style="border-style: dotted ; border-width: 3px; padding: 10px 5px 10px 20px;border-radius: 10px;"><img src="/img/top1.png"></div>
 <div style="padding:10px;">経路ごとにこれらのような写真を見て以下のような質問に答えてください。</div>
 <div style="border-style: dotted ; border-width: 3px; padding: 10px 5px 10px 20px;border-radius: 10px;"><img src="/img/explainimage2.png"></div>
 <div style="padding:10px;">問１〜３は自身の立場として回答し、問４〜１１は車いす使用者の立場を想定して回答してください。</div>
