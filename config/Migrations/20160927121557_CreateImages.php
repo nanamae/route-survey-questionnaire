@@ -21,6 +21,7 @@ class CreateImages extends AbstractMigration
         ]);
         $table->addColumn('data', 'blob', [
             'default' => null,
+            'limit' => 16777215,
             'null' => false,
         ]);
         $table->addColumn('created', 'datetime', [
