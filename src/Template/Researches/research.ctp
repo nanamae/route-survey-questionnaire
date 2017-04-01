@@ -34,13 +34,14 @@
     echo $this->element('partial/map', ['path'=>$path]); 
 ?>
 
+
 <?php if(count($path->images) > 0): // 写真があるときだけ ?>
     
     <?php 
         // 写真の表示部分をファイル分割
         // Template/Element/photos.ctp を読み込み
         // 引数として$pathを渡している
-        echo $this->element('partial/map', ['path'=>$path]); 
+        echo $this->element('partial/photos', ['path'=>$path]); 
     ?>
 
 <?php endif; ?>
