@@ -41,7 +41,7 @@
         // 写真の表示部分をファイル分割
         // Template/Element/photos.ctp を読み込み
         // 引数として$pathを渡している
-        echo $this->element('partial/map', ['path'=>$path]); 
+        echo $this->element('partial/photos', ['path'=>$path]); 
     ?>
 
 <?php endif; ?>
