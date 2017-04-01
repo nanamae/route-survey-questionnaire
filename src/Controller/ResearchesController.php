@@ -88,6 +88,11 @@ class ResearchesController extends AppController
         
     }
     
+    public function completed(){
+         
+        
+    }
+    
     public function start(){
         $uid = $this->Auth->user('id');
         $this->CurrentResearches = TableRegistry::get('CurrentResearches');
@@ -104,8 +109,13 @@ class ResearchesController extends AppController
         }
         $seq_split = explode(",", $current->sequence);
         
+        
         //条件判定
-        return $this->redirect(Router::url(['controller' => 'researches', 'action' => 'research', $seq_split[$current->num] ]));
+        if($current->num >= count($seq_split)){
+            return $this->redirect(Router::url(['controller' => 'researches', 'action' => 'completed']));
+        }else{
+            return $this->redirect(Router::url(['controller' => 'researches', 'action' => 'research', $seq_split[$current->num] ]));
+        }
     }
 
     public function beforeFilter(Event $event)
