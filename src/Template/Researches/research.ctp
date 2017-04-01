@@ -27,7 +27,6 @@
 </nav>
 
 
-<?php if(false): // 写真があるときだけ ?>
 <?php 
     // map表示部分をファイル分割
     // Template/Element/map.ctp を読み込み
@@ -35,7 +34,6 @@
     echo $this->element('partial/map', ['path'=>$path]); 
 ?>
 
-<?php endif; ?>
 
 <?php if(count($path->images) > 0): // 写真があるときだけ ?>
     

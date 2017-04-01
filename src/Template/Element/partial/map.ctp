@@ -77,7 +77,8 @@
 <div class="container theme-showcase placement" style="padding: 0;">
     <div class="container clearfix" role="main">
         <div id="map" style="height:350px; width:50%; float: left;"></div>
-        <div id="pano"style="height:350px; width:50%; float: left;"></div><br>
+            <!--<div id="pano"style="height:350px; width:50%; float: left;"></div>-->
+            <div id="pano"style="height:0px; width:0%; float: left;"></div>
     </div>
     <!--<div id="position">-->
     <!--    Position-->
