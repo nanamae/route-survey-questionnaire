@@ -29,7 +29,7 @@ msgstr ""
 
 #: Controller/Component/AuthComponent.php:461
 msgid "You are not authorized to access that location."
-msgstr ""
+msgstr "このページにアクセスするにはログインが必要です。"
 
 #: Controller/Component/CsrfComponent.php:154
 msgid "Missing CSRF token cookie"
