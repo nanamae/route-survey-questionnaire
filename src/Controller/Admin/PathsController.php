@@ -98,14 +98,11 @@ class PathsController extends AppController
         
         if ($this->request->is(['patch', 'post', 'put'])) {
             
+            $images = $this->request->data['image'];
+            
+            $path = $this->Paths->patchEntity($path, $this->request->data);
             if ($this->Paths->save($path)) {
                 $this->Flash->success(__('The path has been saved.'));
-                    
-                    
-               $images = $this->request->data['image'];
-                // debug( $this->request->data);
-                // debug($images);
-                // exit;
             
                 foreach($images as $idx=>$image){
                     
