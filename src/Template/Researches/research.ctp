@@ -26,22 +26,29 @@
   </div>
 </nav>
 
-
 <?php 
-    // map表示部分をファイル分割
-    // Template/Element/map.ctp を読み込み
-    // 引数として$pathを渡している
-    echo $this->element('partial/map', ['path'=>$path]); 
+        // map表示部分をファイル分割
+        // Template/Element/map.ctp を読み込み
+        // 引数として$pathを渡している
+        echo $this->element('partial/map', ['path'=>$path]); 
+  
 ?>
+
+
+<div align="right" style="margin-top:5px;">
+    <?php 
+        echo $this->Html->link( __('もとの位置に戻る'), '', ['id' => 'reset-button', 'class'=>'btn btn-lg btn-primary'] );
+    ?>
+</div>
 
 
 <?php if(count($path->images) > 0): // 写真があるときだけ ?>
     
     <?php 
-        // 写真の表示部分をファイル分割
-        // Template/Element/photos.ctp を読み込み
-        // 引数として$pathを渡している
-        echo $this->element('partial/photos', ['path'=>$path]); 
+         // 写真の表示部分をファイル分割
+         // Template/Element/photos.ctp を読み込み
+         // 引数として$pathを渡している
+        //  echo $this->element('partial/photos', ['path'=>$path]); 
     ?>
 
 <?php endif; ?>
@@ -50,7 +57,8 @@
 <div class="container">
     <div class="alert alert-info" style="color:black; margin-top:10px; margin-bottom:10px; padding:10px; font-size: 14px;">
         <div>問１〜３は自身の立場として、問４〜１１は車いすを使用した場合を想定して回答してください。</div>
-        <div>車いすを使用している方は自身の立場で回答してください。</div>
+        <div>車いすを使用している方は自身の立場で回答してください。ストリートビューはカーソルキーで操作ができます。</div>
+        <div>また、回答していただく経路の範囲は、<strong>ストリートビューを開いた最初の位置から左右の交差点まで</strong>です。</div>
     </div>
 
     <?php 
@@ -67,6 +75,8 @@
     <input type="hidden" id="lng" name='lng' value="<?= $path->lng ?>">
     <input type="hidden" id="heading" name='heading' value="0">
     <input type="hidden" id="pitch" name='pitch' value="0">
+<div style="background: #eeeeee; width:1100px; height:500px; padding-left:10px; padding-right:10px; padding-top:5px; padding-bottom:5px; overflow: scroll;">
+
 
     <?php foreach ($researches as $research): ?>
     
@@ -99,7 +109,9 @@
             </div>
         </div>
     <?php endforeach; ?>
-    <button class="btn btn-primary" type="submit">送信する</button>
+</div>
+ 
+    <button class="btn btn-primary" type="submit" style="margin-top:10px;">送信する</button>
     <div style="margin-top:1em;">
         <?php 
             // プログレスバー表示部分をファイル分割

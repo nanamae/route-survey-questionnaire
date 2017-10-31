@@ -2052,3 +2052,712 @@ Stack trace:
 [02-Apr-2017 06:17:56 UTC] PHP  14. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/route-survey-questionnaire/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:121
 [02-Apr-2017 06:17:56 UTC] PHP  15. call_user_func_array:{/home/ubuntu/workspace/route-survey-questionnaire/vendor/cakephp/cakephp/src/Controller/Controller.php:435}() /home/ubuntu/workspace/route-survey-questionnaire/vendor/cakephp/cakephp/src/Controller/Controller.php:435
 [02-Apr-2017 06:17:56 UTC] PHP  16. App\Controller\Admin\PathsController->edit() /home/ubuntu/workspace/route-survey-questionnaire/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[12-Jul-2017 06:02:01 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/questionnaire-whc/src/Template/Researches/research.ctp on line 39
+[12-Jul-2017 06:02:01 UTC] PHP Stack trace:
+[12-Jul-2017 06:02:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[12-Jul-2017 06:02:01 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[12-Jul-2017 06:02:01 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[12-Jul-2017 06:02:01 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[12-Jul-2017 06:02:01 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[12-Jul-2017 06:02:01 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[12-Jul-2017 06:02:01 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[12-Jul-2017 06:02:01 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[12-Jul-2017 06:02:01 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[12-Jul-2017 06:02:01 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[12-Jul-2017 06:02:01 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[12-Jul-2017 06:02:01 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[12-Jul-2017 06:02:01 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[12-Jul-2017 06:02:01 UTC] PHP  14. Cake\Controller\Controller->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:131
+[12-Jul-2017 06:02:01 UTC] PHP  15. Cake\View\View->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[12-Jul-2017 06:02:01 UTC] PHP  16. Cake\View\View->_render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:588
+[12-Jul-2017 06:02:01 UTC] PHP  17. Cake\View\View->_evaluate() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:964
+[21-Aug-2017 16:07:09 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/questionnaire-whc/src/Controller/ResearchesController.php on line 97
+[21-Aug-2017 16:07:09 UTC] PHP Stack trace:
+[21-Aug-2017 16:07:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[21-Aug-2017 16:07:09 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[21-Aug-2017 16:07:09 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[21-Aug-2017 16:07:09 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Aug-2017 16:07:09 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Aug-2017 16:07:09 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[21-Aug-2017 16:07:09 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Aug-2017 16:07:09 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Aug-2017 16:07:09 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Aug-2017 16:07:09 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[21-Aug-2017 16:07:09 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Aug-2017 16:07:09 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[21-Aug-2017 16:07:09 UTC] PHP  13. Cake\Http\ControllerFactory->create() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:96
+[21-Aug-2017 16:07:09 UTC] PHP  14. Cake\Core\App::className() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ControllerFactory.php:70
+[21-Aug-2017 16:07:09 UTC] PHP  15. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Core/App.php:64
+[21-Aug-2017 16:07:09 UTC] PHP  16. class_exists() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Core/App.php:152
+[21-Aug-2017 16:07:09 UTC] PHP  17. spl_autoload_call() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Core/App.php:152
+[21-Aug-2017 16:07:09 UTC] PHP  18. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Core/App.php:152
+[21-Aug-2017 16:07:09 UTC] PHP  19. Composer\Autoload\includeFile() /home/ubuntu/workspace/questionnaire-whc/vendor/composer/ClassLoader.php:301
+[21-Aug-2017 16:09:29 UTC] PHP Fatal error:  Call to undefined method App\Controller\ResearchesController::element() in /home/ubuntu/workspace/questionnaire-whc/src/Controller/ResearchesController.php on line 100
+[21-Aug-2017 16:09:29 UTC] PHP Stack trace:
+[21-Aug-2017 16:09:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[21-Aug-2017 16:09:29 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[21-Aug-2017 16:09:29 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[21-Aug-2017 16:09:29 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Aug-2017 16:09:29 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Aug-2017 16:09:29 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[21-Aug-2017 16:09:29 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Aug-2017 16:09:29 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Aug-2017 16:09:29 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Aug-2017 16:09:29 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[21-Aug-2017 16:09:29 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Aug-2017 16:09:29 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[21-Aug-2017 16:09:29 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[21-Aug-2017 16:09:29 UTC] PHP  14. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:125
+[21-Aug-2017 16:09:29 UTC] PHP  15. call_user_func_array:{/home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435}() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[21-Aug-2017 16:09:29 UTC] PHP  16. App\Controller\ResearchesController->remove() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[21-Aug-2017 16:14:25 UTC] PHP Fatal error:  Call to undefined method App\Controller\ResearchesController::element() in /home/ubuntu/workspace/questionnaire-whc/src/Controller/ResearchesController.php on line 102
+[21-Aug-2017 16:14:25 UTC] PHP Stack trace:
+[21-Aug-2017 16:14:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[21-Aug-2017 16:14:25 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[21-Aug-2017 16:14:25 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[21-Aug-2017 16:14:25 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Aug-2017 16:14:25 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Aug-2017 16:14:25 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[21-Aug-2017 16:14:25 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Aug-2017 16:14:25 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Aug-2017 16:14:25 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Aug-2017 16:14:25 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[21-Aug-2017 16:14:25 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Aug-2017 16:14:25 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[21-Aug-2017 16:14:25 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[21-Aug-2017 16:14:25 UTC] PHP  14. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:125
+[21-Aug-2017 16:14:25 UTC] PHP  15. call_user_func_array:{/home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435}() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[21-Aug-2017 16:14:25 UTC] PHP  16. App\Controller\ResearchesController->remove() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[21-Aug-2017 16:14:32 UTC] PHP Fatal error:  Call to undefined method App\Controller\ResearchesController::element() in /home/ubuntu/workspace/questionnaire-whc/src/Controller/ResearchesController.php on line 102
+[21-Aug-2017 16:14:32 UTC] PHP Stack trace:
+[21-Aug-2017 16:14:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[21-Aug-2017 16:14:32 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[21-Aug-2017 16:14:32 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[21-Aug-2017 16:14:32 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Aug-2017 16:14:32 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Aug-2017 16:14:32 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[21-Aug-2017 16:14:32 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Aug-2017 16:14:32 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Aug-2017 16:14:32 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Aug-2017 16:14:32 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[21-Aug-2017 16:14:32 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Aug-2017 16:14:32 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[21-Aug-2017 16:14:32 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[21-Aug-2017 16:14:32 UTC] PHP  14. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:125
+[21-Aug-2017 16:14:32 UTC] PHP  15. call_user_func_array:{/home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435}() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[21-Aug-2017 16:14:32 UTC] PHP  16. App\Controller\ResearchesController->remove() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[21-Aug-2017 16:20:49 UTC] PHP Fatal error:  Call to undefined method App\Controller\ResearchesController::element() in /home/ubuntu/workspace/questionnaire-whc/src/Controller/ResearchesController.php on line 104
+[21-Aug-2017 16:20:49 UTC] PHP Stack trace:
+[21-Aug-2017 16:20:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[21-Aug-2017 16:20:49 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[21-Aug-2017 16:20:49 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[21-Aug-2017 16:20:49 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Aug-2017 16:20:49 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Aug-2017 16:20:49 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[21-Aug-2017 16:20:49 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Aug-2017 16:20:49 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Aug-2017 16:20:49 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Aug-2017 16:20:49 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[21-Aug-2017 16:20:49 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Aug-2017 16:20:49 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[21-Aug-2017 16:20:49 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[21-Aug-2017 16:20:49 UTC] PHP  14. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:125
+[21-Aug-2017 16:20:49 UTC] PHP  15. call_user_func_array:{/home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435}() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[21-Aug-2017 16:20:49 UTC] PHP  16. App\Controller\ResearchesController->remove() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[29-Aug-2017 08:16:37 UTC] PHP Fatal error:  Call to undefined method App\Controller\ResearchesController::element() in /home/ubuntu/workspace/questionnaire-whc/src/Controller/ResearchesController.php on line 104
+[29-Aug-2017 08:16:37 UTC] PHP Stack trace:
+[29-Aug-2017 08:16:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[29-Aug-2017 08:16:37 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[29-Aug-2017 08:16:37 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[29-Aug-2017 08:16:37 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[29-Aug-2017 08:16:37 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 08:16:37 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[29-Aug-2017 08:16:37 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 08:16:37 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[29-Aug-2017 08:16:37 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 08:16:37 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[29-Aug-2017 08:16:37 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 08:16:37 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[29-Aug-2017 08:16:37 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[29-Aug-2017 08:16:37 UTC] PHP  14. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:125
+[29-Aug-2017 08:16:37 UTC] PHP  15. call_user_func_array:{/home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435}() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[29-Aug-2017 08:16:37 UTC] PHP  16. App\Controller\ResearchesController->remove() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[29-Aug-2017 08:41:06 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/ubuntu/workspace/questionnaire-whc/src/Controller/ResearchesController.php on line 110
+[29-Aug-2017 08:41:06 UTC] PHP Stack trace:
+[29-Aug-2017 08:41:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[29-Aug-2017 08:41:06 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[29-Aug-2017 08:41:06 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[29-Aug-2017 08:41:06 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[29-Aug-2017 08:41:06 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 08:41:06 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[29-Aug-2017 08:41:06 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 08:41:06 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[29-Aug-2017 08:41:06 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 08:41:06 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[29-Aug-2017 08:41:06 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 08:41:06 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[29-Aug-2017 08:41:06 UTC] PHP  13. Cake\Http\ControllerFactory->create() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:96
+[29-Aug-2017 08:41:06 UTC] PHP  14. Cake\Core\App::className() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ControllerFactory.php:70
+[29-Aug-2017 08:41:06 UTC] PHP  15. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Core/App.php:64
+[29-Aug-2017 08:41:06 UTC] PHP  16. class_exists() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Core/App.php:152
+[29-Aug-2017 08:41:06 UTC] PHP  17. spl_autoload_call() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Core/App.php:152
+[29-Aug-2017 08:41:06 UTC] PHP  18. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Core/App.php:152
+[29-Aug-2017 08:41:06 UTC] PHP  19. Composer\Autoload\includeFile() /home/ubuntu/workspace/questionnaire-whc/vendor/composer/ClassLoader.php:301
+[29-Aug-2017 08:41:24 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/ubuntu/workspace/questionnaire-whc/src/Controller/ResearchesController.php on line 110
+[29-Aug-2017 08:41:24 UTC] PHP Stack trace:
+[29-Aug-2017 08:41:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[29-Aug-2017 08:41:24 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[29-Aug-2017 08:41:24 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[29-Aug-2017 08:41:24 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[29-Aug-2017 08:41:24 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 08:41:24 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[29-Aug-2017 08:41:24 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 08:41:24 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[29-Aug-2017 08:41:24 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 08:41:24 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[29-Aug-2017 08:41:24 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 08:41:24 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[29-Aug-2017 08:41:24 UTC] PHP  13. Cake\Http\ControllerFactory->create() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:96
+[29-Aug-2017 08:41:24 UTC] PHP  14. Cake\Core\App::className() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ControllerFactory.php:70
+[29-Aug-2017 08:41:24 UTC] PHP  15. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Core/App.php:64
+[29-Aug-2017 08:41:24 UTC] PHP  16. class_exists() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Core/App.php:152
+[29-Aug-2017 08:41:24 UTC] PHP  17. spl_autoload_call() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Core/App.php:152
+[29-Aug-2017 08:41:24 UTC] PHP  18. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Core/App.php:152
+[29-Aug-2017 08:41:24 UTC] PHP  19. Composer\Autoload\includeFile() /home/ubuntu/workspace/questionnaire-whc/vendor/composer/ClassLoader.php:301
+[29-Aug-2017 08:41:42 UTC] PHP Fatal error:  Call to undefined method App\Controller\ResearchesController::element() in /home/ubuntu/workspace/questionnaire-whc/src/Controller/ResearchesController.php on line 104
+[29-Aug-2017 08:41:42 UTC] PHP Stack trace:
+[29-Aug-2017 08:41:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[29-Aug-2017 08:41:42 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[29-Aug-2017 08:41:42 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[29-Aug-2017 08:41:42 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[29-Aug-2017 08:41:42 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 08:41:42 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[29-Aug-2017 08:41:42 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 08:41:42 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[29-Aug-2017 08:41:42 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 08:41:42 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[29-Aug-2017 08:41:42 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 08:41:42 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[29-Aug-2017 08:41:42 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[29-Aug-2017 08:41:42 UTC] PHP  14. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:125
+[29-Aug-2017 08:41:42 UTC] PHP  15. call_user_func_array:{/home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435}() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[29-Aug-2017 08:41:42 UTC] PHP  16. App\Controller\ResearchesController->remove() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[29-Aug-2017 08:58:26 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/questionnaire-whc/src/Controller/ResearchesController.php on line 104
+[29-Aug-2017 08:58:26 UTC] PHP Stack trace:
+[29-Aug-2017 08:58:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[29-Aug-2017 08:58:26 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[29-Aug-2017 08:58:26 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[29-Aug-2017 08:58:26 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[29-Aug-2017 08:58:26 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 08:58:26 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[29-Aug-2017 08:58:26 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 08:58:26 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[29-Aug-2017 08:58:26 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 08:58:26 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[29-Aug-2017 08:58:26 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 08:58:26 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[29-Aug-2017 08:58:26 UTC] PHP  13. Cake\Http\ControllerFactory->create() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:96
+[29-Aug-2017 08:58:26 UTC] PHP  14. Cake\Core\App::className() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ControllerFactory.php:70
+[29-Aug-2017 08:58:26 UTC] PHP  15. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Core/App.php:64
+[29-Aug-2017 08:58:26 UTC] PHP  16. class_exists() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Core/App.php:152
+[29-Aug-2017 08:58:26 UTC] PHP  17. spl_autoload_call() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Core/App.php:152
+[29-Aug-2017 08:58:26 UTC] PHP  18. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Core/App.php:152
+[29-Aug-2017 08:58:26 UTC] PHP  19. Composer\Autoload\includeFile() /home/ubuntu/workspace/questionnaire-whc/vendor/composer/ClassLoader.php:301
+[29-Aug-2017 09:00:37 UTC] PHP Fatal error:  Call to undefined method App\Controller\ResearchesController::element() in /home/ubuntu/workspace/questionnaire-whc/src/Controller/ResearchesController.php on line 104
+[29-Aug-2017 09:00:37 UTC] PHP Stack trace:
+[29-Aug-2017 09:00:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[29-Aug-2017 09:00:37 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[29-Aug-2017 09:00:37 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[29-Aug-2017 09:00:37 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[29-Aug-2017 09:00:37 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 09:00:37 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[29-Aug-2017 09:00:37 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 09:00:37 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[29-Aug-2017 09:00:37 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 09:00:37 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[29-Aug-2017 09:00:37 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 09:00:37 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[29-Aug-2017 09:00:37 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[29-Aug-2017 09:00:37 UTC] PHP  14. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:125
+[29-Aug-2017 09:00:37 UTC] PHP  15. call_user_func_array:{/home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435}() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[29-Aug-2017 09:00:37 UTC] PHP  16. App\Controller\ResearchesController->remove() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[29-Aug-2017 09:04:49 UTC] PHP Fatal error:  Call to undefined method App\Controller\ResearchesController::renders() in /home/ubuntu/workspace/questionnaire-whc/src/Controller/ResearchesController.php on line 104
+[29-Aug-2017 09:04:49 UTC] PHP Stack trace:
+[29-Aug-2017 09:04:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[29-Aug-2017 09:04:49 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[29-Aug-2017 09:04:49 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[29-Aug-2017 09:04:49 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[29-Aug-2017 09:04:49 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 09:04:49 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[29-Aug-2017 09:04:49 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 09:04:49 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[29-Aug-2017 09:04:49 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 09:04:49 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[29-Aug-2017 09:04:49 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 09:04:49 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[29-Aug-2017 09:04:49 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[29-Aug-2017 09:04:49 UTC] PHP  14. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:125
+[29-Aug-2017 09:04:49 UTC] PHP  15. call_user_func_array:{/home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435}() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[29-Aug-2017 09:04:49 UTC] PHP  16. App\Controller\ResearchesController->remove() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[29-Aug-2017 09:04:57 UTC] PHP Fatal error:  Call to undefined method App\Controller\ResearchesController::renders() in /home/ubuntu/workspace/questionnaire-whc/src/Controller/ResearchesController.php on line 104
+[29-Aug-2017 09:04:57 UTC] PHP Stack trace:
+[29-Aug-2017 09:04:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[29-Aug-2017 09:04:57 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[29-Aug-2017 09:04:57 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[29-Aug-2017 09:04:57 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[29-Aug-2017 09:04:57 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 09:04:57 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[29-Aug-2017 09:04:57 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 09:04:57 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[29-Aug-2017 09:04:57 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 09:04:57 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[29-Aug-2017 09:04:57 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 09:04:57 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[29-Aug-2017 09:04:57 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[29-Aug-2017 09:04:57 UTC] PHP  14. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:125
+[29-Aug-2017 09:04:57 UTC] PHP  15. call_user_func_array:{/home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435}() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[29-Aug-2017 09:04:57 UTC] PHP  16. App\Controller\ResearchesController->remove() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[29-Aug-2017 09:14:49 UTC] PHP Fatal error:  Call to undefined method App\Controller\ResearchesController::renders() in /home/ubuntu/workspace/questionnaire-whc/src/Controller/ResearchesController.php on line 104
+[29-Aug-2017 09:14:49 UTC] PHP Stack trace:
+[29-Aug-2017 09:14:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[29-Aug-2017 09:14:49 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[29-Aug-2017 09:14:49 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[29-Aug-2017 09:14:49 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[29-Aug-2017 09:14:49 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 09:14:49 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[29-Aug-2017 09:14:49 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 09:14:49 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[29-Aug-2017 09:14:49 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 09:14:49 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[29-Aug-2017 09:14:49 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[29-Aug-2017 09:14:49 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[29-Aug-2017 09:14:49 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[29-Aug-2017 09:14:49 UTC] PHP  14. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:125
+[29-Aug-2017 09:14:49 UTC] PHP  15. call_user_func_array:{/home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435}() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[29-Aug-2017 09:14:49 UTC] PHP  16. App\Controller\ResearchesController->remove() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[31-Aug-2017 01:43:55 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/questionnaire-whc/src/Template/Researches/research.ctp on line 50
+[31-Aug-2017 01:43:55 UTC] PHP Stack trace:
+[31-Aug-2017 01:43:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[31-Aug-2017 01:43:55 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[31-Aug-2017 01:43:55 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[31-Aug-2017 01:43:55 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[31-Aug-2017 01:43:55 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:43:55 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[31-Aug-2017 01:43:55 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:43:55 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[31-Aug-2017 01:43:55 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:43:55 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[31-Aug-2017 01:43:55 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:43:55 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[31-Aug-2017 01:43:55 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[31-Aug-2017 01:43:55 UTC] PHP  14. Cake\Controller\Controller->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:131
+[31-Aug-2017 01:43:55 UTC] PHP  15. Cake\View\View->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[31-Aug-2017 01:43:55 UTC] PHP  16. Cake\View\View->_render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:588
+[31-Aug-2017 01:43:55 UTC] PHP  17. Cake\View\View->_evaluate() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:964
+[31-Aug-2017 01:45:18 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/questionnaire-whc/src/Template/Researches/research.ctp on line 42
+[31-Aug-2017 01:45:18 UTC] PHP Stack trace:
+[31-Aug-2017 01:45:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[31-Aug-2017 01:45:18 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[31-Aug-2017 01:45:18 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[31-Aug-2017 01:45:18 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[31-Aug-2017 01:45:18 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:45:18 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[31-Aug-2017 01:45:18 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:45:18 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[31-Aug-2017 01:45:18 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:45:18 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[31-Aug-2017 01:45:18 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:45:18 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[31-Aug-2017 01:45:18 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[31-Aug-2017 01:45:18 UTC] PHP  14. Cake\Controller\Controller->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:131
+[31-Aug-2017 01:45:18 UTC] PHP  15. Cake\View\View->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[31-Aug-2017 01:45:18 UTC] PHP  16. Cake\View\View->_render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:588
+[31-Aug-2017 01:45:18 UTC] PHP  17. Cake\View\View->_evaluate() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:964
+[31-Aug-2017 01:45:34 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/questionnaire-whc/src/Template/Researches/research.ctp on line 50
+[31-Aug-2017 01:45:34 UTC] PHP Stack trace:
+[31-Aug-2017 01:45:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[31-Aug-2017 01:45:34 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[31-Aug-2017 01:45:34 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[31-Aug-2017 01:45:34 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[31-Aug-2017 01:45:34 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:45:34 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[31-Aug-2017 01:45:34 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:45:34 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[31-Aug-2017 01:45:34 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:45:34 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[31-Aug-2017 01:45:34 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:45:34 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[31-Aug-2017 01:45:34 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[31-Aug-2017 01:45:34 UTC] PHP  14. Cake\Controller\Controller->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:131
+[31-Aug-2017 01:45:34 UTC] PHP  15. Cake\View\View->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[31-Aug-2017 01:45:34 UTC] PHP  16. Cake\View\View->_render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:588
+[31-Aug-2017 01:45:34 UTC] PHP  17. Cake\View\View->_evaluate() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:964
+[31-Aug-2017 01:47:36 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/questionnaire-whc/src/Template/Researches/research.ctp on line 50
+[31-Aug-2017 01:47:36 UTC] PHP Stack trace:
+[31-Aug-2017 01:47:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[31-Aug-2017 01:47:36 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[31-Aug-2017 01:47:36 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[31-Aug-2017 01:47:36 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[31-Aug-2017 01:47:36 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:47:36 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[31-Aug-2017 01:47:36 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:47:36 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[31-Aug-2017 01:47:36 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:47:36 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[31-Aug-2017 01:47:36 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:47:36 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[31-Aug-2017 01:47:36 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[31-Aug-2017 01:47:36 UTC] PHP  14. Cake\Controller\Controller->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:131
+[31-Aug-2017 01:47:36 UTC] PHP  15. Cake\View\View->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[31-Aug-2017 01:47:36 UTC] PHP  16. Cake\View\View->_render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:588
+[31-Aug-2017 01:47:36 UTC] PHP  17. Cake\View\View->_evaluate() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:964
+[31-Aug-2017 01:48:31 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/questionnaire-whc/src/Template/Researches/research.ctp on line 50
+[31-Aug-2017 01:48:31 UTC] PHP Stack trace:
+[31-Aug-2017 01:48:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[31-Aug-2017 01:48:31 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[31-Aug-2017 01:48:31 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[31-Aug-2017 01:48:31 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[31-Aug-2017 01:48:31 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:48:31 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[31-Aug-2017 01:48:31 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:48:31 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[31-Aug-2017 01:48:31 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:48:31 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[31-Aug-2017 01:48:31 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:48:31 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[31-Aug-2017 01:48:31 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[31-Aug-2017 01:48:31 UTC] PHP  14. Cake\Controller\Controller->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:131
+[31-Aug-2017 01:48:31 UTC] PHP  15. Cake\View\View->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[31-Aug-2017 01:48:31 UTC] PHP  16. Cake\View\View->_render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:588
+[31-Aug-2017 01:48:31 UTC] PHP  17. Cake\View\View->_evaluate() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:964
+[31-Aug-2017 01:50:48 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/questionnaire-whc/src/Template/Researches/research.ctp on line 50
+[31-Aug-2017 01:50:48 UTC] PHP Stack trace:
+[31-Aug-2017 01:50:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[31-Aug-2017 01:50:48 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[31-Aug-2017 01:50:48 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[31-Aug-2017 01:50:48 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[31-Aug-2017 01:50:48 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:50:48 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[31-Aug-2017 01:50:48 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:50:48 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[31-Aug-2017 01:50:48 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:50:48 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[31-Aug-2017 01:50:48 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:50:48 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[31-Aug-2017 01:50:48 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[31-Aug-2017 01:50:48 UTC] PHP  14. Cake\Controller\Controller->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:131
+[31-Aug-2017 01:50:48 UTC] PHP  15. Cake\View\View->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[31-Aug-2017 01:50:48 UTC] PHP  16. Cake\View\View->_render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:588
+[31-Aug-2017 01:50:48 UTC] PHP  17. Cake\View\View->_evaluate() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:964
+[31-Aug-2017 01:52:29 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/questionnaire-whc/src/Template/Researches/research.ctp on line 52
+[31-Aug-2017 01:52:29 UTC] PHP Stack trace:
+[31-Aug-2017 01:52:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[31-Aug-2017 01:52:29 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[31-Aug-2017 01:52:29 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[31-Aug-2017 01:52:29 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[31-Aug-2017 01:52:29 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:52:29 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[31-Aug-2017 01:52:29 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:52:29 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[31-Aug-2017 01:52:29 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:52:29 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[31-Aug-2017 01:52:29 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:52:29 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[31-Aug-2017 01:52:29 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[31-Aug-2017 01:52:29 UTC] PHP  14. Cake\Controller\Controller->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:131
+[31-Aug-2017 01:52:29 UTC] PHP  15. Cake\View\View->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[31-Aug-2017 01:52:29 UTC] PHP  16. Cake\View\View->_render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:588
+[31-Aug-2017 01:52:29 UTC] PHP  17. Cake\View\View->_evaluate() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:964
+[31-Aug-2017 01:53:10 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/questionnaire-whc/src/Template/Researches/research.ctp on line 52
+[31-Aug-2017 01:53:10 UTC] PHP Stack trace:
+[31-Aug-2017 01:53:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[31-Aug-2017 01:53:10 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[31-Aug-2017 01:53:10 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[31-Aug-2017 01:53:10 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[31-Aug-2017 01:53:10 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:53:10 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[31-Aug-2017 01:53:10 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:53:10 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[31-Aug-2017 01:53:10 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:53:10 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[31-Aug-2017 01:53:10 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:53:10 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[31-Aug-2017 01:53:10 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[31-Aug-2017 01:53:10 UTC] PHP  14. Cake\Controller\Controller->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:131
+[31-Aug-2017 01:53:10 UTC] PHP  15. Cake\View\View->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[31-Aug-2017 01:53:10 UTC] PHP  16. Cake\View\View->_render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:588
+[31-Aug-2017 01:53:10 UTC] PHP  17. Cake\View\View->_evaluate() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:964
+[31-Aug-2017 01:53:53 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/questionnaire-whc/src/Template/Researches/research.ctp on line 52
+[31-Aug-2017 01:53:53 UTC] PHP Stack trace:
+[31-Aug-2017 01:53:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[31-Aug-2017 01:53:53 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[31-Aug-2017 01:53:53 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[31-Aug-2017 01:53:53 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[31-Aug-2017 01:53:53 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:53:53 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[31-Aug-2017 01:53:53 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:53:53 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[31-Aug-2017 01:53:53 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:53:53 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[31-Aug-2017 01:53:53 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:53:53 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[31-Aug-2017 01:53:53 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[31-Aug-2017 01:53:53 UTC] PHP  14. Cake\Controller\Controller->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:131
+[31-Aug-2017 01:53:53 UTC] PHP  15. Cake\View\View->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[31-Aug-2017 01:53:53 UTC] PHP  16. Cake\View\View->_render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:588
+[31-Aug-2017 01:53:53 UTC] PHP  17. Cake\View\View->_evaluate() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:964
+[31-Aug-2017 01:58:52 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/questionnaire-whc/src/Template/Researches/research.ctp on line 52
+[31-Aug-2017 01:58:52 UTC] PHP Stack trace:
+[31-Aug-2017 01:58:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[31-Aug-2017 01:58:52 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[31-Aug-2017 01:58:52 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[31-Aug-2017 01:58:52 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[31-Aug-2017 01:58:52 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:58:52 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[31-Aug-2017 01:58:52 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:58:52 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[31-Aug-2017 01:58:52 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:58:52 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[31-Aug-2017 01:58:52 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:58:52 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[31-Aug-2017 01:58:52 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[31-Aug-2017 01:58:52 UTC] PHP  14. Cake\Controller\Controller->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:131
+[31-Aug-2017 01:58:52 UTC] PHP  15. Cake\View\View->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[31-Aug-2017 01:58:52 UTC] PHP  16. Cake\View\View->_render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:588
+[31-Aug-2017 01:58:52 UTC] PHP  17. Cake\View\View->_evaluate() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:964
+[31-Aug-2017 01:58:55 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/questionnaire-whc/src/Template/Researches/research.ctp on line 52
+[31-Aug-2017 01:58:55 UTC] PHP Stack trace:
+[31-Aug-2017 01:58:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[31-Aug-2017 01:58:55 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[31-Aug-2017 01:58:55 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[31-Aug-2017 01:58:55 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[31-Aug-2017 01:58:55 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:58:55 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[31-Aug-2017 01:58:55 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:58:55 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[31-Aug-2017 01:58:55 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:58:55 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[31-Aug-2017 01:58:55 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:58:55 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[31-Aug-2017 01:58:55 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[31-Aug-2017 01:58:55 UTC] PHP  14. Cake\Controller\Controller->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:131
+[31-Aug-2017 01:58:55 UTC] PHP  15. Cake\View\View->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[31-Aug-2017 01:58:55 UTC] PHP  16. Cake\View\View->_render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:588
+[31-Aug-2017 01:58:55 UTC] PHP  17. Cake\View\View->_evaluate() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:964
+[31-Aug-2017 01:59:29 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/questionnaire-whc/src/Template/Researches/research.ctp on line 35
+[31-Aug-2017 01:59:29 UTC] PHP Stack trace:
+[31-Aug-2017 01:59:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[31-Aug-2017 01:59:29 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[31-Aug-2017 01:59:29 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[31-Aug-2017 01:59:29 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[31-Aug-2017 01:59:29 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:59:29 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[31-Aug-2017 01:59:29 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:59:29 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[31-Aug-2017 01:59:29 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:59:29 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[31-Aug-2017 01:59:29 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 01:59:29 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[31-Aug-2017 01:59:29 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[31-Aug-2017 01:59:29 UTC] PHP  14. Cake\Controller\Controller->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:131
+[31-Aug-2017 01:59:29 UTC] PHP  15. Cake\View\View->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[31-Aug-2017 01:59:29 UTC] PHP  16. Cake\View\View->_render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:588
+[31-Aug-2017 01:59:29 UTC] PHP  17. Cake\View\View->_evaluate() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:964
+[31-Aug-2017 01:59:29 UTC] PHP  18. include() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:1005
+[31-Aug-2017 01:59:29 UTC] PHP  19. mapload() /home/ubuntu/workspace/questionnaire-whc/src/Template/Researches/research.ctp:39
+[31-Aug-2017 02:00:19 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/questionnaire-whc/src/Template/Researches/research.ctp on line 35
+[31-Aug-2017 02:00:19 UTC] PHP Stack trace:
+[31-Aug-2017 02:00:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[31-Aug-2017 02:00:19 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[31-Aug-2017 02:00:19 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[31-Aug-2017 02:00:19 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[31-Aug-2017 02:00:19 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:00:19 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[31-Aug-2017 02:00:19 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:00:19 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[31-Aug-2017 02:00:19 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:00:19 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[31-Aug-2017 02:00:19 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:00:19 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[31-Aug-2017 02:00:19 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[31-Aug-2017 02:00:19 UTC] PHP  14. Cake\Controller\Controller->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:131
+[31-Aug-2017 02:00:19 UTC] PHP  15. Cake\View\View->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[31-Aug-2017 02:00:19 UTC] PHP  16. Cake\View\View->_render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:588
+[31-Aug-2017 02:00:19 UTC] PHP  17. Cake\View\View->_evaluate() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:964
+[31-Aug-2017 02:00:19 UTC] PHP  18. include() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:1005
+[31-Aug-2017 02:00:19 UTC] PHP  19. mapload() /home/ubuntu/workspace/questionnaire-whc/src/Template/Researches/research.ctp:39
+[31-Aug-2017 02:01:19 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/questionnaire-whc/src/Template/Researches/research.ctp on line 48
+[31-Aug-2017 02:01:19 UTC] PHP Stack trace:
+[31-Aug-2017 02:01:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[31-Aug-2017 02:01:19 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[31-Aug-2017 02:01:19 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[31-Aug-2017 02:01:19 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[31-Aug-2017 02:01:19 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:01:19 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[31-Aug-2017 02:01:19 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:01:19 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[31-Aug-2017 02:01:19 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:01:19 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[31-Aug-2017 02:01:19 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:01:19 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[31-Aug-2017 02:01:19 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[31-Aug-2017 02:01:19 UTC] PHP  14. Cake\Controller\Controller->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:131
+[31-Aug-2017 02:01:19 UTC] PHP  15. Cake\View\View->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[31-Aug-2017 02:01:19 UTC] PHP  16. Cake\View\View->_render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:588
+[31-Aug-2017 02:01:19 UTC] PHP  17. Cake\View\View->_evaluate() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:964
+[31-Aug-2017 02:03:39 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/questionnaire-whc/src/Template/Researches/research.ctp on line 48
+[31-Aug-2017 02:03:39 UTC] PHP Stack trace:
+[31-Aug-2017 02:03:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[31-Aug-2017 02:03:39 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[31-Aug-2017 02:03:39 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[31-Aug-2017 02:03:39 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[31-Aug-2017 02:03:39 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:03:39 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[31-Aug-2017 02:03:39 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:03:39 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[31-Aug-2017 02:03:39 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:03:39 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[31-Aug-2017 02:03:39 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:03:39 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[31-Aug-2017 02:03:39 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[31-Aug-2017 02:03:39 UTC] PHP  14. Cake\Controller\Controller->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:131
+[31-Aug-2017 02:03:39 UTC] PHP  15. Cake\View\View->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[31-Aug-2017 02:03:39 UTC] PHP  16. Cake\View\View->_render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:588
+[31-Aug-2017 02:03:39 UTC] PHP  17. Cake\View\View->_evaluate() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:964
+[31-Aug-2017 02:05:46 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/questionnaire-whc/src/Template/Researches/research.ctp on line 48
+[31-Aug-2017 02:05:46 UTC] PHP Stack trace:
+[31-Aug-2017 02:05:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[31-Aug-2017 02:05:46 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[31-Aug-2017 02:05:46 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[31-Aug-2017 02:05:46 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[31-Aug-2017 02:05:46 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:05:46 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[31-Aug-2017 02:05:46 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:05:46 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[31-Aug-2017 02:05:46 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:05:46 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[31-Aug-2017 02:05:46 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:05:46 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[31-Aug-2017 02:05:46 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[31-Aug-2017 02:05:46 UTC] PHP  14. Cake\Controller\Controller->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:131
+[31-Aug-2017 02:05:46 UTC] PHP  15. Cake\View\View->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[31-Aug-2017 02:05:46 UTC] PHP  16. Cake\View\View->_render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:588
+[31-Aug-2017 02:05:46 UTC] PHP  17. Cake\View\View->_evaluate() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:964
+[31-Aug-2017 02:07:05 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/questionnaire-whc/src/Template/Researches/research.ctp on line 46
+[31-Aug-2017 02:07:05 UTC] PHP Stack trace:
+[31-Aug-2017 02:07:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[31-Aug-2017 02:07:05 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[31-Aug-2017 02:07:05 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[31-Aug-2017 02:07:05 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[31-Aug-2017 02:07:05 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:07:05 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[31-Aug-2017 02:07:05 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:07:05 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[31-Aug-2017 02:07:05 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:07:05 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[31-Aug-2017 02:07:05 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:07:05 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[31-Aug-2017 02:07:05 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[31-Aug-2017 02:07:05 UTC] PHP  14. Cake\Controller\Controller->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:131
+[31-Aug-2017 02:07:05 UTC] PHP  15. Cake\View\View->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[31-Aug-2017 02:07:05 UTC] PHP  16. Cake\View\View->_render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:588
+[31-Aug-2017 02:07:05 UTC] PHP  17. Cake\View\View->_evaluate() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:964
+[31-Aug-2017 02:07:23 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/questionnaire-whc/src/Template/Researches/research.ctp on line 38
+[31-Aug-2017 02:07:23 UTC] PHP Stack trace:
+[31-Aug-2017 02:07:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[31-Aug-2017 02:07:23 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[31-Aug-2017 02:07:23 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[31-Aug-2017 02:07:23 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[31-Aug-2017 02:07:23 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:07:23 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[31-Aug-2017 02:07:23 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:07:23 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[31-Aug-2017 02:07:23 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:07:23 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[31-Aug-2017 02:07:23 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:07:23 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[31-Aug-2017 02:07:23 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[31-Aug-2017 02:07:23 UTC] PHP  14. Cake\Controller\Controller->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:131
+[31-Aug-2017 02:07:23 UTC] PHP  15. Cake\View\View->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[31-Aug-2017 02:07:23 UTC] PHP  16. Cake\View\View->_render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:588
+[31-Aug-2017 02:07:23 UTC] PHP  17. Cake\View\View->_evaluate() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:964
+[31-Aug-2017 02:08:00 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/questionnaire-whc/src/Template/Researches/research.ctp on line 38
+[31-Aug-2017 02:08:00 UTC] PHP Stack trace:
+[31-Aug-2017 02:08:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[31-Aug-2017 02:08:00 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[31-Aug-2017 02:08:00 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[31-Aug-2017 02:08:00 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[31-Aug-2017 02:08:00 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:08:00 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[31-Aug-2017 02:08:00 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:08:00 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[31-Aug-2017 02:08:00 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:08:00 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[31-Aug-2017 02:08:00 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:08:00 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[31-Aug-2017 02:08:00 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[31-Aug-2017 02:08:00 UTC] PHP  14. Cake\Controller\Controller->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:131
+[31-Aug-2017 02:08:00 UTC] PHP  15. Cake\View\View->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[31-Aug-2017 02:08:00 UTC] PHP  16. Cake\View\View->_render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:588
+[31-Aug-2017 02:08:00 UTC] PHP  17. Cake\View\View->_evaluate() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:964
+[31-Aug-2017 02:12:37 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/questionnaire-whc/src/Template/Researches/research.ctp on line 34
+[31-Aug-2017 02:12:37 UTC] PHP Stack trace:
+[31-Aug-2017 02:12:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[31-Aug-2017 02:12:37 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[31-Aug-2017 02:12:37 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[31-Aug-2017 02:12:37 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[31-Aug-2017 02:12:37 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:12:37 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[31-Aug-2017 02:12:37 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:12:37 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[31-Aug-2017 02:12:37 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:12:37 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[31-Aug-2017 02:12:37 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 02:12:37 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[31-Aug-2017 02:12:37 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[31-Aug-2017 02:12:37 UTC] PHP  14. Cake\Controller\Controller->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:131
+[31-Aug-2017 02:12:37 UTC] PHP  15. Cake\View\View->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[31-Aug-2017 02:12:37 UTC] PHP  16. Cake\View\View->_render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:588
+[31-Aug-2017 02:12:37 UTC] PHP  17. Cake\View\View->_evaluate() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:964
+[31-Aug-2017 02:12:37 UTC] PHP  18. include() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:1005
+[31-Aug-2017 02:12:37 UTC] PHP  19. mapload() /home/ubuntu/workspace/questionnaire-whc/src/Template/Researches/research.ctp:37
+[31-Aug-2017 03:31:16 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/questionnaire-whc/src/Template/Researches/research.ctp on line 40
+[31-Aug-2017 03:31:16 UTC] PHP Stack trace:
+[31-Aug-2017 03:31:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[31-Aug-2017 03:31:16 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[31-Aug-2017 03:31:16 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[31-Aug-2017 03:31:16 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[31-Aug-2017 03:31:16 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 03:31:16 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[31-Aug-2017 03:31:16 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 03:31:16 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[31-Aug-2017 03:31:16 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 03:31:16 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[31-Aug-2017 03:31:16 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 03:31:16 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[31-Aug-2017 03:31:16 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[31-Aug-2017 03:31:16 UTC] PHP  14. Cake\Controller\Controller->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:131
+[31-Aug-2017 03:31:16 UTC] PHP  15. Cake\View\View->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[31-Aug-2017 03:31:16 UTC] PHP  16. Cake\View\View->_render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:588
+[31-Aug-2017 03:31:16 UTC] PHP  17. Cake\View\View->_evaluate() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:964
+[31-Aug-2017 03:42:02 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php on line 1629
+[31-Aug-2017 03:42:02 UTC] PHP Stack trace:
+[31-Aug-2017 03:42:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:0
+[31-Aug-2017 03:42:02 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/questionnaire-whc/webroot/index.php:37
+[31-Aug-2017 03:42:02 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Server.php:82
+[31-Aug-2017 03:42:02 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[31-Aug-2017 03:42:02 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 03:42:02 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:51
+[31-Aug-2017 03:42:02 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 03:42:02 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[31-Aug-2017 03:42:02 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 03:42:02 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:52
+[31-Aug-2017 03:42:02 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[31-Aug-2017 03:42:02 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/BaseApplication.php:82
+[31-Aug-2017 03:42:02 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:99
+[31-Aug-2017 03:42:02 UTC] PHP  14. Cake\Controller\Controller->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:131
+[31-Aug-2017 03:42:02 UTC] PHP  15. Cake\View\View->render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[31-Aug-2017 03:42:02 UTC] PHP  16. Cake\View\View->_render() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:588
+[31-Aug-2017 03:42:02 UTC] PHP  17. Cake\View\View->_evaluate() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:964
+[31-Aug-2017 03:42:02 UTC] PHP  18. include() /home/ubuntu/workspace/questionnaire-whc/vendor/cakephp/cakephp/src/View/View.php:1005
+[31-Aug-2017 03:42:02 UTC] PHP  19. Cake\View\Helper\FormHelper->button() /home/ubuntu/workspace/questionnaire-whc/src/Template/Researches/research.ctp:40

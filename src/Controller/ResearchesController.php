@@ -92,6 +92,7 @@ class ResearchesController extends AppController
          
         
     }
+
     
     public function start(){
         $uid = $this->Auth->user('id');
