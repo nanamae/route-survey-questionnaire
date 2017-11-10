@@ -24,7 +24,8 @@ class UsersSeed extends AbstractSeed
                  [
                     'username' => 'nanamae2',
                     'password' => $hasher->hash('test'), 
-                    'role' => 'admin'
+                    'role' => 'admin',
+                    'email' => 'naaaats45@gmail.com'
                 ]
             ];
         
